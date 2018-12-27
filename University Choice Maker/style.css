@@ -1,0 +1,102 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+.content-wrapper{
+  position: relative !important;
+}
+
+div.outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+
+.main-header, .main-header .navbar{
+
+   box-shadow: 0 3px 6px rgba(0, 0, 0, .175) !important;
+}
+
+.skin-blue .main-header .navbar,
+.navbar,
+.navbar-static-top{
+   background-color: #29373d !important;
+}
+
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper{
+  background-color: #364951 !important;
+  box-shadow: 3px 0 6px rgba(0, 0, 0, .175) !important;
+}
+
+.skin-blue .main-header .logo {
+  background-color: #364951 !important;
+}
+.skin-blue .main-header .logo:hover {
+  background-color: #364951 !important;
+}
+
+.main-header .logo {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #364951 !important;
+  color:#6db6c6 !important;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a{
+  border-left-color:#c6746d !important;
+  color:#6db6c6 !important;
+}
+
+.sidebar-toggle{
+  color:#c6746d !important;
+}
+
+.well{
+  background-color: white !important;
+  border-top: 5px solid #6db6c6;
+}
+
+#controls{
+  border-top: 5px solid #6db6c6 !important;
+}

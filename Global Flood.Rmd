@@ -1,0 +1,56 @@
+---
+title: "Global Map of Extreme Flood Events"
+author: "Lee Min Hua"
+output:
+  html_document:
+    df_print: paged
+---
+
+This interactive global map allows users to visualize historical large flood events distributed across the earth over the last three decades (1985-2018). National Oceanic and Atmospheric Administration National Weather Service (NOAA NWS) defined flood as "any high overflow or inundation by water which causes or threaten damages". Each dot on the map marks an location where a discrete flood event took place.
+
+The flood data used is imaged by satellite and actively compiled by Dartmouth Flood Observatory.   The listing of the flood events is comprehensive and global in scope. It includes centroid of the flood, area affected, causes, death and displaced estimates of floodings that appears to be large and severe. Tropical storms without significant river flooding are not included.
+
+The size of the dots is varied by the area affected by the inundation whereas the color of the dots is varied by the severity. A bigger and darker colored dot represents an acute flooding which causes significant damages and fatalities with a longer recurrence interval.
+
+DFO Flood data as of Dec 2018: http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx
+
+```{r, fig.width=8, fig.height=8}
+library(maps)
+library(ggplot2)
+library(plotly)
+library(httpuv)
+options(warn=-1)
+
+thismap <- map_data("world")
+
+flood_data <- read.csv('FloodArchive.csv',header= T,stringsAsFactors = F)
+flood_data$Began <- as.Date(flood_data$Began, format="%Y-%m-%d")
+flood_data$year <- format(flood_data$Began,"%Y") 
+
+g <- list(projection = list(type = 'orthographic'),
+          framewidth=0,
+          coastlinecolor = "#c9c9c5",
+          showland = TRUE,
+          landcolor = "#e2e2d7",
+          showcountries = TRUE,
+          showocean = TRUE,
+          oceancolor = "#bed9e0",
+          countrywidth = 0.2)
+
+p <- plot_geo(flood_data,marker = list(sizemode = "diameter", opacity = 0.5,line=list(width=0))) %>%
+         add_markers(x = ~long,
+                      y = ~lat,
+                     frame = ~year,
+                     color = ~Severity,
+                     colors = c('#6b8ec6','#4d7ecc','#122a4f'),
+                     size = ~Area,
+                      hoverinfo = "text",
+                      text = ~paste('Country: ', Country,
+                                    '<br /> Death: ', Dead,
+                                    '<br /> Displaced: ', Displaced,
+                                    '<br /> Cause: ', MainCause)) %>%
+  layout(geo = g, title = '<b>World Flood Events, 1985-2018</b><br>Source: Dartmouth Flood Observatory', margin=list(t=90))
+
+p
+```
+

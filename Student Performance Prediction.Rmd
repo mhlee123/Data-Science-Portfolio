@@ -1,0 +1,284 @@
+---
+title: "Assignment"
+author: "Lee Min Hua & Mohamad Najmudin"
+date: "December 10, 2017"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+## Project : Predicting Students Performance
+In this project, we will use a dataset of secondary education of two portuguese schools. The attributes in the dataset includes student grades, demographic, social and school related features. The data are collected through school reports and questionnaires. The dataset consists of data regarding the performance in Mathematics (mat). The name of the schools are Gabriel Pereira ('GP') and Mousinho da Silveira ('MS').
+
+G1 - first period grade (numeric: from 0 to 20)
+
+G2 - second period grade (numeric: from 0 to 20)  
+
+G3 - final grade (numeric: from 0 to 20, output target)
+
+
+Load required packages
+```{r warning=FALSE, message=FALSE}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(reshape2)
+library(caret)
+library(klaR)
+library(ROCR)
+library(boot)
+```
+
+## Data Exploration 
+
+Read data into variable 'data'
+```{r}
+data <- read.csv('student\\student-mat.csv',header = TRUE, sep = ';')
+```
+
+Explore data
+```{r}
+# Print the first 6 rows of data
+head(data)
+# Print the internal structure of the data
+str(data)
+# Print the summary of data
+summary(data)
+# Check if there is any missing value
+sapply(data,function(x) sum(is.na(x)))
+```
+
+## Data Visualisation
+
+A histogram to show the distribution of G3
+```{r}
+hist(data$G3)
+```
+
+A G3 value of 0 indicates that the particular student has dropped the subject. Here we compare the data between students who dropped the subject and students who did not.
+```{r}
+# extract data of students who dropped the subject
+data_drop <- subset(data,G3 == 0)
+
+# extract data of students who did not drop the subject
+data_stay <- subset(data,G3 != 0)
+
+# Get summary of both datasets
+summary(data_drop)
+summary(data_stay)
+```
+
+Based on the summaries above, the data are split into two which are Data_Drop and Data_Stay. This subsets represents whether the students drop the subjects or continue. In data_drop, there are total of 38 students (23F,15M) while for data_Stay, there are total of 357 students (185F and 172M). 
+
+For data drop, G1 has a range from 4-12 score, median of 7 and mean of 7.526. G2 has a range from 0-10 score, median of 5 and mean of 4.658.
+
+For data stay, G1 has a range from 3-19 score, median of 11 and mean of 11.27. G2 has a range from 5-19 score, median of 11 and mean of 11.36. G3 has a range from 4-20 score, median of 11 and mean of 11.52
+
+
+Boxplot of G1, G2 nad G3
+```{r}
+grades <- gather(data,key = grade,value = score, G1,G2,G3)
+
+ggplot(grades, aes(x=grade, y=score, fill=grade)) + geom_boxplot() +
+  stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..),
+               width = .75, linetype = "dashed")
+```
+
+### Visualisation of relationships between G3 and other predictor variables
+
+#### G3 versus G1
+```{r}
+ggplot(data,aes(x=G1,y=G3)) +
+  geom_point() + geom_smooth(method = 'lm')
+
+```
+
+The graph displays the linear relationship between G3 and G1
+
+#### G3 versus G2
+```{r}
+ggplot(data,aes(x=G2,y=G3)) +
+  geom_point() + geom_smooth(method = 'lm')
+```
+
+The graph displays the linear relationship between G3 and G2
+
+#### G3 versus study time
+```{r}
+ggplot(data,aes(x=studytime,y=G3)) + stat_summary(fun.y="mean", geom="bar",fill="#8fd1d6") + ggtitle("G3 versus studytime")
+```
+
+Study time - weekly study time (numeric: 1 = <2 hours, 2 = 2 to 5 hours, 3 = 5 to 10 hours, or 4 = >10 hours) 
+
+As you can see, 3 and 4 are the highest
+
+#### G3 versus romantic
+```{r}
+ggplot(data, aes(x=romantic, y=G3)) + stat_summary(fun.y="mean", geom="bar",fill="#efb92f") + ggtitle("G3 versus romantic")
+```
+
+romantic = romantic relationship. Single or Taken. Single students have better scores. 
+
+Focus!
+
+#### G3 versus Father's job types
+```{r}
+ggplot(data, aes(x=Fjob, y=G3)) + stat_summary(fun.y="mean", geom="bar",fill="#f7a19e") + ggtitle("G3 versus Father's job types")
+```
+
+Refers to the students` father occupation. To check the relationship between the father's occupation and their result
+
+To get another view of distribution: 
+```{r}
+# convert the target variable (G3) into binary (either pass or fail)
+# grades less than 10 will be considered as fail and more than or equal to 10 will be considered pass
+# assign the result into a new variable called final
+data$final <- factor(ifelse(data$G3 >= 10, 1, 0), labels = c("fail", "pass"))
+
+# remove G3 variable from the dataset
+data$G3 <- NULL
+```
+
+Stacked bar chart showing the count of pass and fail for father's job types
+```{r message=FALSE}
+# use dcast and gather functions to create a temporary data frame consisting count of pass and fail for each father's job types
+temp <- dcast(unique(data), formula = Fjob ~ final, fun.aggregate = length)
+temp <- gather(temp, type, count, fail,pass)
+temp
+
+ggplot(data, aes(x=Fjob, group=final,fill=final)) + geom_bar()
+```
+
+This graph makes it easier to see the relationship between father's occupation and the students performance. 
+
+Teachers = 22 pass & 7 fail
+
+Services = 71 pass & 40 fail
+
+Other = 148 pass & 69 fail
+
+Health = 12 pass & 6 fail
+
+At home = 12 pass & 8 fail
+
+
+#### Higher education
+
+```{r message=FALSE}
+# use dcast and gather functions to create a temporary data frame consisting count of pass and fail for student's desires to take higher education (yes or no)
+temp <- dcast(unique(data), formula = higher ~ final, fun.aggregate = length)
+temp <- gather(temp, type, count, fail,pass)
+temp
+
+ggplot(data, aes(x=higher, group=final,fill=final)) + geom_bar()
+```
+
+indicates on how many students wants to pursue higher education.
+
+Yes = 258 pass & 117 fail
+
+No = 7 pass & 13 fail
+
+
+## Data Preprocessing
+
+As we want all variables to be treated the same we should normalize them so that they range between zero and one, thus operating on the same scale.
+
+```{r }
+# create normalize function which takes a vector x of numeric values, and for each value in x subtracts the min value in x and divides by the range of values in x. A vector will be returned.
+normalize <- function(x){
+  return ( (x- min(x)) / ( max(x) - min(x)))
+}
+
+# normalizing data
+cols <- c('age','Medu','Fedu','traveltime','studytime','failures','famrel','freetime','goout','Dalc','Walc','health','absences','G1','G2')
+data[cols] <- lapply(data[cols], normalize)
+```
+
+## Training and test data construction
+
+```{r warning=FALSE}
+split <- 0.70 
+
+trainIndex <- createDataPartition(data$final, p=split, list=FALSE)
+
+# Create training and test set
+data_train <- data[ trainIndex,]
+data_test <- data[-trainIndex,]
+
+# Check the dimension of both training and test dataset
+dim(data_train)
+dim(data_test)
+```
+
+## Feature selection - step wise regression
+
+Find the most important predictor variables in order to build high performing model
+```{r warning=FALSE}
+# base model with intercept only
+base.mod <- glm(final ~ 1 , data= data_train,family=binomial)  # base intercept only model
+
+# full model with all predictor variables
+all.mod <- glm(final ~ . , data= data_train,family=binomial)
+
+# perform step-wise algorithm
+stepMod <- step(base.mod, scope = list(lower = base.mod, upper = all.mod), direction = "both", trace = 0, steps = 1000)  
+
+# Get the shortlisted variables
+formula(stepMod)
+
+stepMod
+```
+
+## Model building
+
+10-fold cross validation is used to assess how well the model performs in predicting the target variable on different subsets of the data.
+
+```{r warning=FALSE}
+set.seed(1337)
+
+# Set train_control to 10-fold cross validation
+train_control <- trainControl(method="cv", number=10)
+
+# Train the model using glm 
+model <- train(formula(stepMod), data = data_train, method = "glm",trControl=train_control,family = binomial)
+
+# View the summary of the model
+summary(model)
+```
+
+Prediction
+
+```{r warning=FALSE}
+# Do prediction using the model
+glm.probs <- predict(model, newdata = data_test, type = "raw")  
+
+```
+
+## Model Evaluation
+
+#### Confusion matrix
+```{r warning=FALSE}
+#create a confusion matrix table
+confusionMatrix(table(glm.probs, data_test$final), positive = "pass") 
+```
+
+#### ROC curve
+
+```{r warning=FALSE}
+
+model <- glm(formula(stepMod), data = data_train,family = binomial)
+
+glm.probs <- predict(model, newdata = data_test, type="response") 
+
+pr <- prediction(glm.probs, data_test$final)
+prf <- performance(pr, measure = "tpr", x.measure = "fpr")
+plot(prf)
+
+auc <- performance(pr, measure = "auc")
+auc <- auc@y.values[[1]]
+auc
+
+```
+

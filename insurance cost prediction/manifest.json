@@ -1,0 +1,2435 @@
+{
+	"version" : 1,
+	"locale" : "en_US",
+	"platform" : "3.4.2",
+	"metadata" : {
+		"appmode" : "shiny",
+		"primary_rmd" : null,
+		"primary_html" : null,
+		"content_category" : null,
+		"has_parameters" : false
+	},
+	"packages" : {
+		"BH" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "BH",
+				"Type" : "Package",
+				"Title" : "Boost C++ Header Files",
+				"Version" : "1.65.0-1",
+				"Date" : "2017-08-24",
+				"Author" : "Dirk Eddelbuettel, John W. Emerson and Michael J. Kane",
+				"Maintainer" : "Dirk Eddelbuettel <edd@debian.org>",
+				"Description" : "Boost provides free peer-reviewed portable C++ source \n libraries.  A large part of Boost is provided as C++ template code\n which is resolved entirely at compile-time without linking.  This \n package aims to provide the most useful subset of Boost libraries \n for template use among CRAN package. By placing these libraries in \n this package, we offer a more efficient distribution system for CRAN \n as replication of this code in the sources of other packages is \n avoided. As of release 1.65.0-1, the following Boost libraries are\n included: 'algorithm' 'align' 'any' 'atomic' 'bimap' 'bind'\n 'circular_buffer' 'concept' 'config' 'container' 'date'_'time'\n 'detail' 'dynamic_bitset' 'exception' 'filesystem' 'flyweight'\n 'foreach' 'functional' 'fusion' 'geometry' 'graph' 'heap' 'icl'\n 'integer' 'interprocess' 'intrusive' 'io' 'iostreams' 'iterator'\n 'math' 'move' 'mpl' 'multiprcecision' 'numeric' 'pending' 'phoenix'\n 'preprocessor' 'propery_tree' 'random' 'range' 'scope_exit'\n 'smart_ptr' 'sort' 'spirit' 'tuple' 'type_traits' 'typeof'\n 'unordered' 'utility' 'uuid'.",
+				"License" : "BSL-1.0",
+				"BugReports" : "https://github.com/eddelbuettel/bh/issues",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-08-24 11:41:27 UTC; edd",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-08-24 14:39:52 UTC",
+				"Built" : "R 3.4.1; ; 2017-08-27 06:50:14 UTC; windows"
+			}
+		},
+		"CVST" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "CVST",
+				"Type" : "Package",
+				"Title" : "Fast Cross-Validation via Sequential Testing",
+				"Version" : "0.2-1",
+				"Date" : "2013-12-10",
+				"Depends" : "kernlab,Matrix",
+				"Author" : "Tammo Krueger, Mikio Braun",
+				"Maintainer" : "Tammo Krueger <tammokrueger@googlemail.com>",
+				"Description" : "This package implements the fast cross-validation via sequential testing (CVST) procedure. CVST is an improved cross-validation procedure which uses non-parametric testing coupled with sequential analysis to determine the best parameter set on linearly increasing subsets of the data. By eliminating underperforming candidates quickly and keeping promising candidates as long as possible, the method speeds up the computation while preserving the capability of a full cross-validation. Additionally to the CVST the package contains an implementation of the ordinary k-fold cross-validation with a flexible and powerful set of helper objects and methods to handle the overall model selection process. The implementations of the Cochran's Q test with permutations and the sequential testing framework of Wald are generic and can therefore also be used in other contexts.",
+				"License" : "GPL (>= 2.0)",
+				"Packaged" : "2013-12-10 13:06:36 UTC; tammok",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2013-12-10 14:50:04",
+				"Built" : "R 3.4.3; ; 2017-12-04 01:40:13 UTC; windows"
+			}
+		},
+		"DEoptimR" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "DEoptimR",
+				"Version" : "1.0-8",
+				"Date" : "2016-11-19",
+				"Title" : "Differential Evolution Optimization in Pure R",
+				"Authors@R" : "c(person(\"Eduardo L. T.\", \"Conceicao\", role = c(\"aut\", \"cre\"),\n                    email = \"mail@eduardoconceicao.org\"),\n             person(\"Martin\", \"Maechler\", role = \"ctb\",\n                    email = \"maechler@stat.math.ethz.ch\")\n             )",
+				"Maintainer" : "Eduardo L. T. Conceicao <mail@eduardoconceicao.org>",
+				"Description" : "Differential Evolution (DE) stochastic algorithms for global\n  optimization of problems with and without constraints.\n  The aim is to curate a collection of its state-of-the-art variants that\n  (1) do not sacrifice simplicity of design,\n  (2) are essentially tuning-free, and\n  (3) can be efficiently implemented directly in the R language.\n  Currently, it only provides an implementation of the 'jDE' algorithm by\n  Brest et al. (2006) <doi:10.1109/TEVC.2006.872133>.",
+				"Imports" : "stats",
+				"Enhances" : "robustbase",
+				"License" : "GPL (>= 2)",
+				"ByteCompile" : "yes",
+				"Author" : "Eduardo L. T. Conceicao [aut, cre],\n  Martin Maechler [ctb]",
+				"Repository" : "CRAN",
+				"Repository/R-Forge/Project" : "robustbase",
+				"Repository/R-Forge/Revision" : "746",
+				"Repository/R-Forge/DateTimeStamp" : "2016-11-19 14:54:56",
+				"Date/Publication" : "2016-11-19 18:16:34",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-11-19 15:06:00 UTC; rforge",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:39:58 UTC; windows"
+			}
+		},
+		"DRR" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "DRR",
+				"Title" : "Dimensionality Reduction via Regression",
+				"Version" : "0.0.2",
+				"Authors@R" : "person(\"Guido\", \"Kraemer\",\n                  email = \"gkraemer@bgc-jena.mpg.de\",\n\t\t  role = c(\"aut\",\"cre\"))",
+				"Description" : "An Implementation of Dimensionality Reduction\n    via Regression using Kernel Ridge Regression.",
+				"License" : "GPL-3",
+				"Imports" : "stats, methods",
+				"Suggests" : "knitr",
+				"VignetteBuilder" : "knitr",
+				"LazyData" : "true",
+				"Depends" : "kernlab, CVST, Matrix",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-09-15 09:54:12 UTC; gkraemer",
+				"Author" : "Guido Kraemer [aut, cre]",
+				"Maintainer" : "Guido Kraemer <gkraemer@bgc-jena.mpg.de>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-09-15 15:46:27",
+				"Built" : "R 3.4.3; ; 2017-12-04 02:47:55 UTC; windows"
+			}
+		},
+		"DT" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "DT",
+				"Type" : "Package",
+				"Title" : "A Wrapper of the JavaScript Library 'DataTables'",
+				"Version" : "0.4",
+				"Authors@R" : "c(\n    person(\"Yihui\", \"Xie\", email = \"xie@yihui.name\", role = c(\"aut\", \"cre\")),\n    person(\"Joe\", \"Cheng\", role = \"ctb\"),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Xianying\", \"Tan\", role = \"ctb\"),\n    person(\"Maximilian\", \"Girlich\", role = \"ctb\"),\n    person(\"jQuery contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery in htmlwidgets/lib\"),\n    person(\"SpryMedia Limited\", role = c(\"ctb\", \"cph\"), comment = \"DataTables in htmlwidgets/lib\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"), comment = \"selectize.js in htmlwidgets/lib\"),\n    person(\"Leon\", \"Gersen\", role = c(\"ctb\", \"cph\"), comment = \"noUiSlider in htmlwidgets/lib\"),\n    person(\"Bartek\", \"Szopka\", role = c(\"ctb\", \"cph\"), comment = \"jquery.highlight.js in htmlwidgets/lib\"),\n    person(\"RStudio Inc\", role = \"cph\")\n    )",
+				"Maintainer" : "Yihui Xie <xie@yihui.name>",
+				"Description" : "Data objects in R can be rendered as HTML tables using the\n    JavaScript library 'DataTables' (typically via R Markdown or Shiny). The\n    'DataTables' library has been included in this R package. The package name\n    'DT' is an abbreviation of 'DataTables'.",
+				"URL" : "https://rstudio.github.io/DT",
+				"BugReports" : "https://github.com/rstudio/DT/issues",
+				"License" : "GPL-3 | file LICENSE",
+				"Imports" : "htmltools (>= 0.3.6), htmlwidgets (>= 1.0), magrittr,\ncrosstalk",
+				"Suggests" : "jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, shiny (>=\n0.12.1)",
+				"VignetteBuilder" : "knitr",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2018-01-30 21:06:51 UTC; yihui",
+				"Author" : "Yihui Xie [aut, cre],\n  Joe Cheng [ctb],\n  JJ Allaire [ctb],\n  Xianying Tan [ctb],\n  Maximilian Girlich [ctb],\n  jQuery contributors [ctb, cph] (jQuery in htmlwidgets/lib),\n  SpryMedia Limited [ctb, cph] (DataTables in htmlwidgets/lib),\n  Brian Reavis [ctb, cph] (selectize.js in htmlwidgets/lib),\n  Leon Gersen [ctb, cph] (noUiSlider in htmlwidgets/lib),\n  Bartek Szopka [ctb, cph] (jquery.highlight.js in htmlwidgets/lib),\n  RStudio Inc [cph]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-01-30 22:54:05 UTC",
+				"Built" : "R 3.4.4; ; 2018-08-16 15:21:37 UTC; windows"
+			}
+		},
+		"KernSmooth" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "KernSmooth",
+				"Priority" : "recommended",
+				"Version" : "2.23-15",
+				"Date" : "2015-06-29",
+				"Title" : "Functions for Kernel Smoothing Supporting Wand & Jones (1995)",
+				"Authors@R" : "c(person(\"Matt\", \"Wand\", role = \"aut\",\n\t             email = \"Matt.Wand@uts.edu.au\"),\n             person(\"Brian\", \"Ripley\", role = c(\"trl\", \"cre\", \"ctb\"),\n                    email = \"ripley@stats.ox.ac.uk\",\n\t\t    comment = \"R port and updates\"))",
+				"Depends" : "R (>= 2.5.0), stats",
+				"Suggests" : "MASS",
+				"Description" : "Functions for kernel smoothing (and density estimation)\n  corresponding to the book: \n  Wand, M.P. and Jones, M.C. (1995) \"Kernel Smoothing\".",
+				"License" : "Unlimited",
+				"ByteCompile" : "yes",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2015-06-29 08:37:00 UTC; ripley",
+				"Author" : "Matt Wand [aut],\n  Brian Ripley [trl, cre, ctb] (R port and updates)",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-06-29 17:13:50",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:56:54 UTC; windows"
+			}
+		},
+		"MASS" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "MASS",
+				"Priority" : "recommended",
+				"Version" : "7.3-47",
+				"Date" : "2017-02-26",
+				"Revision" : "$Rev: 3474 $",
+				"Depends" : "R (>= 3.1.0), grDevices, graphics, stats, utils",
+				"Imports" : "methods",
+				"Suggests" : "lattice, nlme, nnet, survival",
+				"Authors@R" : "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n\t     person(\"Bill\", \"Venables\", role = \"ctb\"),\n\t     person(c(\"Douglas\", \"M.\"), \"Bates\", role = \"ctb\"),\n\t     person(\"Kurt\", \"Hornik\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"Albrecht\", \"Gebhardt\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"David\", \"Firth\", role = \"ctb\"))",
+				"Description" : "Functions and datasets to support Venables and Ripley,\n  \"Modern Applied Statistics with S\" (4th edition, 2002).",
+				"Title" : "Support Functions and Datasets for Venables and Ripley's MASS",
+				"LazyData" : "yes",
+				"ByteCompile" : "yes",
+				"License" : "GPL-2 | GPL-3",
+				"URL" : "http://www.stats.ox.ac.uk/pub/MASS4/",
+				"Contact" : "<MASS@stats.ox.ac.uk>",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-02-26 08:41:42 UTC; ripley",
+				"Author" : "Brian Ripley [aut, cre, cph],\n  Bill Venables [ctb],\n  Douglas M. Bates [ctb],\n  Kurt Hornik [trl] (partial port ca 1998),\n  Albrecht Gebhardt [trl] (partial port ca 1998),\n  David Firth [ctb]",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-02-26 10:01:42",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:49:37 UTC; windows"
+			}
+		},
+		"Matrix" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "Matrix",
+				"Version" : "1.2-11",
+				"Date" : "2017-08-08",
+				"Priority" : "recommended",
+				"Title" : "Sparse and Dense Matrix Classes and Methods",
+				"Author" : "Douglas Bates <bates@stat.wisc.edu> and Martin Maechler",
+				"Maintainer" : "Martin Maechler <mmaechler+Matrix@gmail.com>",
+				"Contact" : "Doug and Martin <Matrix-authors@R-project.org>",
+				"Description" : "Classes and methods for dense and sparse matrices and\n    operations on them using 'LAPACK' and 'SuiteSparse'.",
+				"Depends" : "R (>= 3.0.1)",
+				"Imports" : "methods, graphics, grid, stats, utils, lattice",
+				"Suggests" : "expm, MASS",
+				"Enhances" : "MatrixModels, graph, SparseM, sfsmisc",
+				"Encoding" : "UTF-8",
+				"LazyData" : "no",
+				"LazyDataNote" : "not possible, since we use data/*.R *and* our classes",
+				"BuildResaveData" : "no",
+				"License" : "GPL (>= 2) | file LICENCE",
+				"URL" : "http://Matrix.R-forge.R-project.org/",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-08-10 15:34:00 UTC; maechler",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-08-21 10:31:45 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:50:27 UTC; windows"
+			}
+		},
+		"ModelMetrics" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "ModelMetrics",
+				"Title" : "Rapid Calculation of Model Metrics",
+				"Version" : "1.1.0",
+				"Authors@R" : "person(\"Tyler\", \"Hunt\", email = \"thunt@snapfinance.com\", role = c(\"aut\", \"cre\"))",
+				"Description" : "Collection of metrics for evaluating models written in C++ using 'Rcpp'.",
+				"Depends" : "R (>= 3.2.2)",
+				"License" : "GPL (>= 2)",
+				"Encoding" : "UTF-8",
+				"LazyData" : "true",
+				"LinkingTo" : "Rcpp",
+				"Imports" : "Rcpp",
+				"RoxygenNote" : "5.0.1",
+				"Suggests" : "testthat",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-08-26 15:27:50 UTC; snapadmin",
+				"Author" : "Tyler Hunt [aut, cre]",
+				"Maintainer" : "Tyler Hunt <thunt@snapfinance.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-08-26 20:35:22",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 00:39:29 UTC; windows"
+			}
+		},
+		"R6" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "R6",
+				"Title" : "Classes with Reference Semantics",
+				"Version" : "2.2.2",
+				"Authors@R" : "person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@stdout.org\")",
+				"Description" : "The R6 package allows the creation of classes with reference\n    semantics, similar to R's built-in reference classes. Compared to reference\n    classes, R6 classes are simpler and lighter-weight, and they are not built\n    on S4 classes so they do not require the methods package. These classes\n    allow public and private members, and they support inheritance, even when\n    the classes are defined in different packages.",
+				"Depends" : "R (>= 3.0)",
+				"Suggests" : "knitr, microbenchmark, pryr, testthat, ggplot2, scales",
+				"License" : "MIT + file LICENSE",
+				"URL" : "https://github.com/wch/R6/",
+				"LazyData" : "true",
+				"VignetteBuilder" : "knitr",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-06-12 18:48:43 UTC; winston",
+				"Author" : "Winston Chang [aut, cre]",
+				"Maintainer" : "Winston Chang <winston@stdout.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-06-17 08:22:59 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-25 01:41:45 UTC; windows"
+			}
+		},
+		"RColorBrewer" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "RColorBrewer",
+				"Version" : "1.1-2",
+				"Date" : "2014-12-07",
+				"Title" : "ColorBrewer Palettes",
+				"Authors@R" : "c(person(given = \"Erich\", family = \"Neuwirth\", role = c(\"aut\",\n        \"cre\"), email = \"erich.neuwirth@univie.ac.at\"))",
+				"Author" : "Erich Neuwirth [aut, cre]",
+				"Maintainer" : "Erich Neuwirth <erich.neuwirth@univie.ac.at>",
+				"Depends" : "R (>= 2.0.0)",
+				"Description" : "Provides color schemes for maps (and other graphics)\n        designed by Cynthia Brewer as described at http://colorbrewer2.org",
+				"License" : "Apache License 2.0",
+				"Packaged" : "2014-12-06 23:59:42 UTC; neuwirth",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-12-07 08:28:55",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:37:50 UTC; windows"
+			}
+		},
+		"Rcpp" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "Rcpp",
+				"Title" : "Seamless R and C++ Integration",
+				"Version" : "0.12.16",
+				"Date" : "2018-03-08",
+				"Author" : "Dirk Eddelbuettel, Romain Francois, JJ Allaire, Kevin Ushey, Qiang Kou,\n Nathan Russell, Douglas Bates and John Chambers",
+				"Maintainer" : "Dirk Eddelbuettel <edd@debian.org>",
+				"Description" : "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation \n about 'Rcpp' is provided by several vignettes included in this package, via the \n 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and \n Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,\n <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2017,\n <doi:10.7287/peerj.preprints.3188v1>); see 'citation(\"Rcpp\")' for details.",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "methods, utils",
+				"Suggests" : "RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten\n(>= 0.1.2)",
+				"VignetteBuilder" : "knitr",
+				"URL" : "http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html,\nhttps://github.com/RcppCore/Rcpp",
+				"License" : "GPL (>= 2)",
+				"BugReports" : "https://github.com/RcppCore/Rcpp/issues",
+				"MailingList" : "Please send questions and comments regarding Rcpp to\nrcpp-devel@lists.r-forge.r-project.org",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2018-03-08 17:04:51.131351 UTC; edd",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-03-13 22:46:12 UTC",
+				"Built" : "R 3.4.4; x86_64-w64-mingw32; 2018-05-10 22:50:14 UTC; windows"
+			}
+		},
+		"RcppRoll" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "RcppRoll",
+				"Type" : "Package",
+				"Title" : "Efficient Rolling / Windowed Operations",
+				"Version" : "0.2.2",
+				"Date" : "2015-04-04",
+				"Author" : "Kevin Ushey",
+				"Maintainer" : "Kevin Ushey <kevinushey@gmail.com>",
+				"Description" : "Provides fast and efficient routines for\n    common rolling / windowed operations. Routines for the\n    efficient computation of windowed mean, median,\n    sum, product, minimum, maximum, standard deviation\n    and variance are provided.",
+				"License" : "GPL (>= 2)",
+				"Depends" : "R (>= 2.15.1)",
+				"Suggests" : "zoo, microbenchmark, testthat, RcppArmadillo",
+				"Imports" : "Rcpp",
+				"LinkingTo" : "Rcpp",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2015-04-04 23:07:51 UTC; kevinushey",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-04-05 01:21:30",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 00:39:52 UTC; windows"
+			}
+		},
+		"assertthat" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "assertthat",
+				"Title" : "Easy Pre and Post Assertions",
+				"Version" : "0.2.0",
+				"Authors@R" : "\n  person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"))",
+				"Description" : "assertthat is an extension to stopifnot() that makes it\n    easy to declare the pre and post conditions that you code should\n    satisfy, while also producing friendly error messages so that your\n    users know what they've done wrong.",
+				"License" : "GPL-3",
+				"Imports" : "tools",
+				"Suggests" : "testthat",
+				"Collate" : "'assert-that.r' 'on-failure.r' 'assertions-file.r'\n'assertions-scalar.R' 'assertions.r' 'base.r'\n'base-comparison.r' 'base-is.r' 'base-logical.r' 'base-misc.r'\n'utils.r' 'validate-that.R'",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-04-10 19:00:43 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-04-11 21:28:45 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-30 12:23:52 UTC; windows"
+			}
+		},
+		"bindr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "bindr",
+				"Title" : "Parametrized Active Bindings",
+				"Version" : "0.1",
+				"Authors@R" : "c(\n    person(\"Kirill\", \"Müller\", role = c(\"aut\", \"cre\"), email = \"krlmlr+r@mailbox.org\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"Description" : "Provides a simple interface for creating active bindings where the\n    bound function accepts additional arguments.",
+				"Suggests" : "testthat",
+				"LazyData" : "true",
+				"Date" : "2016-11-12",
+				"BugReports" : "https://github.com/krlmlr/bindr/issues",
+				"URL" : "https://github.com/krlmlr/bindr, https://krlmlr.github.io/bindr",
+				"RoxygenNote" : "5.0.1.9000",
+				"License" : "MIT + file LICENSE",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-11-12 22:17:21 UTC; muelleki",
+				"Author" : "Kirill Müller [aut, cre],\n  RStudio [cph]",
+				"Maintainer" : "Kirill Müller <krlmlr+r@mailbox.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-11-13 01:48:48",
+				"Built" : "R 3.4.2; ; 2017-11-30 12:23:52 UTC; windows"
+			}
+		},
+		"bindrcpp" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "bindrcpp",
+				"Title" : "An 'Rcpp' Interface to Active Bindings",
+				"Description" : "Provides an easy way to fill an environment with active bindings\n    that call a C++ function.",
+				"Authors@R" : "c(\n    person(\"Kirill\", \"Müller\", role = c(\"aut\", \"cre\"), email = \"krlmlr+r@mailbox.org\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"Version" : "0.2",
+				"Date" : "2017-06-15",
+				"URL" : "https://github.com/krlmlr/bindrcpp,\nhttps://krlmlr.github.io/bindrcpp",
+				"BugReports" : "https://github.com/krlmlr/bindrcpp/issues",
+				"Imports" : "Rcpp, bindr",
+				"Suggests" : "testthat",
+				"LinkingTo" : "Rcpp, plogr",
+				"RoxygenNote" : "6.0.1",
+				"LazyData" : "true",
+				"License" : "MIT + file LICENSE",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-06-15 20:53:22 UTC; muelleki",
+				"Author" : "Kirill Müller [aut, cre],\n  RStudio [cph]",
+				"Maintainer" : "Kirill Müller <krlmlr+r@mailbox.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-06-17 23:52:40 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-30 13:23:21 UTC; windows"
+			}
+		},
+		"broom" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "broom",
+				"Type" : "Package",
+				"Title" : "Convert Statistical Analysis Objects into Tidy Data Frames",
+				"Version" : "0.4.3",
+				"Date" : "2017-11-20",
+				"Authors@R" : "c(\n    person(\"David\", \"Robinson\", email = \"admiral.david@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Matthieu\", \"Gomez\", email = \"mattg@princeton.edu\", role = \"ctb\"),\n    person(\"Boris\", \"Demeshev\", email = \"boris.demeshev@gmail.com\", role = \"ctb\"),\n    person(\"Dieter\", \"Menne\", email = \"dieter.menne@menne-biomed.de\", role = \"ctb\"),\n    person(\"Benjamin\", \"Nutter\", email = \"nutter@battelle.org\", role = \"ctb\"),\n    person(\"Luke\", \"Johnston\", email = \"luke.johnston@mail.utoronto.ca\", role = \"ctb\"),\n    person(\"Ben\", \"Bolker\", email = \"bolker@mcmaster.ca\", role = \"ctb\"),\n    person(\"Francois\", \"Briatte\", email = \"f.briatte@gmail.com\", role = \"ctb\"),\n    person(\"Jeffrey\", \"Arnold\", email = \"jeffrey.arnold@gmail.com\", role = \"ctb\"),\n    person(\"Jonah\", \"Gabry\", email = \"jsg2201@columbia.edu\", role = \"ctb\"),\n    person(\"Luciano\", \"Selzer\", email = \"luciano.selzer@gmail.com\", role = \"ctb\"),\n    person(\"Gavin\", \"Simpson\", email = \"ucfagls@gmail.com\", role = \"ctb\"),\n    person(\"Jens\", \"Preussner\", email = \" jens.preussner@mpi-bn.mpg.de\", role = \"ctb\"),\n    person(\"Jay\", \"Hesselberth\", email = \"jay.hesselberth@gmail.com\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", email = \"hadley@rstudio.com\", role = \"ctb\"),\n    person(\"Matthew\", \"Lincoln\", email = \"matthew.d.lincoln@gmail.com\", role = \"ctb\"))",
+				"Maintainer" : "David Robinson <admiral.david@gmail.com>",
+				"Description" : "Convert statistical analysis objects from R into tidy data frames,\n    so that they can more easily be combined, reshaped and otherwise processed\n    with tools like 'dplyr', 'tidyr' and 'ggplot2'. The package provides three\n    S3 generics: tidy, which summarizes a model's statistical findings such as\n    coefficients of a regression; augment, which adds columns to the original\n    data such as predictions, residuals and cluster assignments; and glance, which\n    provides a one-row summary of model-level statistics.",
+				"Imports" : "plyr, dplyr, tidyr, psych, stringr, reshape2, nlme, methods",
+				"Suggests" : "knitr, boot, survival, gam, glmnet, lfe, Lahman, MASS, sp,\nmaps, maptools, multcomp, testthat, lme4, zoo, lmtest, plm,\nbiglm, ggplot2, nnet, geepack, AUC, ergm, network,\nstatnet.common, xergm, btergm, binGroup, Hmisc, bbmle, gamlss,\nrstan, rstanarm, brms, coda, gmm, Matrix, ks, purrr, orcutt,\nmgcv, lmodel2, poLCA, mclust, covr, lsmeans, emmeans, betareg,\nrobust, akima, AER, muhaz, speedglm, tibble",
+				"URL" : "http://github.com/tidyverse/broom",
+				"BugReports" : "http://github.com/tidyverse/broom/issues",
+				"VignetteBuilder" : "knitr",
+				"License" : "MIT + file LICENSE",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-11-20 12:08:18 UTC; drobinson",
+				"Author" : "David Robinson [aut, cre],\n  Matthieu Gomez [ctb],\n  Boris Demeshev [ctb],\n  Dieter Menne [ctb],\n  Benjamin Nutter [ctb],\n  Luke Johnston [ctb],\n  Ben Bolker [ctb],\n  Francois Briatte [ctb],\n  Jeffrey Arnold [ctb],\n  Jonah Gabry [ctb],\n  Luciano Selzer [ctb],\n  Gavin Simpson [ctb],\n  Jens Preussner [ctb],\n  Jay Hesselberth [ctb],\n  Hadley Wickham [ctb],\n  Matthew Lincoln [ctb]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-20 13:02:37 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-04 02:47:49 UTC; windows"
+			}
+		},
+		"caret" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "caret",
+				"Version" : "6.0-77",
+				"Title" : "Classification and Regression Training",
+				"Author" : "Max Kuhn. Contributions from Jed Wing, Steve Weston, Andre\n    Williams, Chris Keefer, Allan Engelhardt, Tony Cooper, Zachary Mayer,\n    Brenton Kenkel, the R Core Team, Michael Benesty, Reynald Lescarbeau,\n    Andrew Ziem, Luca Scrucca, Yuan Tang, Can Candan, and Tyler Hunt.",
+				"Description" : "Misc functions for training and plotting classification and\n    regression models.",
+				"Maintainer" : "Max Kuhn <mxkuhn@gmail.com>",
+				"Depends" : "R (>= 2.10), lattice (>= 0.20), ggplot2",
+				"URL" : "https://github.com/topepo/caret/",
+				"BugReports" : "https://github.com/topepo/caret/issues",
+				"Imports" : "foreach, methods, plyr, ModelMetrics (>= 1.1.0), nlme,\nreshape2, stats, stats4, utils, grDevices, recipes (>= 0.0.1),\nwithr (>= 2.0.0)",
+				"Suggests" : "BradleyTerry2, e1071, earth (>= 2.2-3), fastICA, gam, ipred,\nkernlab, klaR, MASS, ellipse, mda, mgcv, mlbench, MLmetrics,\nnnet, party (>= 0.9-99992), pls, pROC, proxy, randomForest,\nRANN, spls, subselect, pamr, superpc, Cubist, testthat (>=\n0.9.1)",
+				"License" : "GPL (>= 2)",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-09-01 14:30:16 UTC; max",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-07 21:15:33 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 04:46:36 UTC; windows"
+			}
+		},
+		"class" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "class",
+				"Priority" : "recommended",
+				"Version" : "7.3-14",
+				"Date" : "2015-08-29",
+				"Depends" : "R (>= 3.0.0), stats, utils",
+				"Imports" : "MASS",
+				"Authors@R" : "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n             person(\"William\", \"Venables\", role = \"cph\"))",
+				"Description" : "Various functions for classification, including k-nearest\n  neighbour, Learning Vector Quantization and Self-Organizing Maps.",
+				"Title" : "Functions for Classification",
+				"ByteCompile" : "yes",
+				"License" : "GPL-2 | GPL-3",
+				"URL" : "http://www.stats.ox.ac.uk/pub/MASS4/",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2015-08-28 15:25:36 UTC; ripley",
+				"Author" : "Brian Ripley [aut, cre, cph],\n  William Venables [cph]",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-08-30 08:58:59",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:57:21 UTC; windows"
+			}
+		},
+		"codetools" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "codetools",
+				"Version" : "0.2-15",
+				"Priority" : "recommended",
+				"Author" : "Luke Tierney <luke-tierney@uiowa.edu>",
+				"Description" : "Code analysis tools for R.",
+				"Title" : "Code Analysis Tools for R",
+				"Depends" : "R (>= 2.1)",
+				"Maintainer" : "Luke Tierney <luke-tierney@uiowa.edu>",
+				"License" : "GPL",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-10-05 12:32:32 UTC; luke",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-10-05 16:36:47",
+				"Built" : "R 3.4.2; ; 2017-09-28 09:56:36 UTC; windows"
+			}
+		},
+		"colorspace" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "colorspace",
+				"Version" : "1.3-2",
+				"Date" : "2016-12-14",
+				"Title" : "Color Space Manipulation",
+				"Authors@R" : "c(person(given = \"Ross\", family = \"Ihaka\", role = \"aut\", email = \"ihaka@stat.auckland.ac.nz\"),\n             person(given = \"Paul\", family = \"Murrell\", role = \"aut\", email = \"paul@stat.auckland.ac.nz\"),\n             person(given = \"Kurt\", family = \"Hornik\", role = \"aut\", email = \"Kurt.Hornik@R-project.org\"),\n             person(given = c(\"Jason\", \"C.\"), family = \"Fisher\", role = \"aut\", email = \"jfisher@usgs.gov\"),\n             person(given = \"Reto\", family = \"Stauffer\", role = \"aut\", email = \"Reto.Stauffer@uibk.ac.at\"),\n             person(given = \"Achim\", family = \"Zeileis\", role = c(\"aut\", \"cre\"), email = \"Achim.Zeileis@R-project.org\"))",
+				"Description" : "Carries out mapping between assorted color spaces including\n             RGB, HSV, HLS, CIEXYZ, CIELUV, HCL (polar CIELUV),\n\t     CIELAB and polar CIELAB. Qualitative, sequential, and\n\t     diverging color palettes based on HCL colors are provided\n\t     along with an interactive palette picker (with either a Tcl/Tk\n\t     or a shiny GUI).",
+				"Depends" : "R (>= 2.13.0), methods",
+				"Imports" : "graphics, grDevices",
+				"Suggests" : "datasets, stats, utils, KernSmooth, MASS, kernlab, mvtnorm,\nvcd, dichromat, tcltk, shiny, shinyjs",
+				"License" : "BSD_3_clause + file LICENSE",
+				"URL" : "https://hclwizard.org/",
+				"LazyData" : "yes",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-12-14 22:11:46 UTC; zeileis",
+				"Author" : "Ross Ihaka [aut],\n  Paul Murrell [aut],\n  Kurt Hornik [aut],\n  Jason C. Fisher [aut],\n  Reto Stauffer [aut],\n  Achim Zeileis [aut, cre]",
+				"Maintainer" : "Achim Zeileis <Achim.Zeileis@R-project.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-12-14 23:28:25",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-27 11:02:07 UTC; windows"
+			}
+		},
+		"crosstalk" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "crosstalk",
+				"Type" : "Package",
+				"Title" : "Inter-Widget Interactivity for HTML Widgets",
+				"Version" : "1.0.0",
+				"Authors@R" : "c(\n    person(\"Joe\", \"Cheng\", role = c(\"aut\", \"cre\"), email = \"joe@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"jQuery Foundation\", role = \"cph\",\n    comment = \"jQuery library and jQuery UI library\"),\n    person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt\"),\n    person(\"Mark\", \"Otto\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(\"Jacob\", \"Thornton\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Bootstrap contributors\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Twitter, Inc\", role = \"cph\",\n    comment = \"Bootstrap library\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"),\n    comment = \"selectize.js library\"),\n    person(\"Kristopher Michael\", \"Kowal\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(family = \"es5-shim contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(\"Denis\", \"Ineshin\", role = c(\"ctb\", \"cph\"),\n    comment = \"ion.rangeSlider library\"),\n    person(\"Sami\", \"Samhuri\", role = c(\"ctb\", \"cph\"),\n    comment = \"Javascript strftime library\")\n    )",
+				"Description" : "Provides building blocks for allowing HTML widgets to communicate\n    with each other, with Shiny or without (i.e. static .html files). Currently\n    supports linked brushing and filtering.",
+				"License" : "MIT + file LICENSE",
+				"Imports" : "htmltools (>= 0.3.5), jsonlite, lazyeval, R6, shiny (>= 0.11),\nggplot2",
+				"URL" : "https://rstudio.github.io/crosstalk/",
+				"BugReports" : "https://github.com/rstudio/crosstalk/issues",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-12-20 20:01:51 UTC; jcheng",
+				"Author" : "Joe Cheng [aut, cre],\n  RStudio [cph],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/www/shared/jquery-AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Brian Reavis [ctb, cph] (selectize.js library),\n  Kristopher Michael Kowal [ctb, cph] (es5-shim library),\n  es5-shim contributors [ctb, cph] (es5-shim library),\n  Denis Ineshin [ctb, cph] (ion.rangeSlider library),\n  Sami Samhuri [ctb, cph] (Javascript strftime library)",
+				"Maintainer" : "Joe Cheng <joe@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-12-21 08:30:32",
+				"Built" : "R 3.4.2; ; 2017-11-27 14:06:36 UTC; windows"
+			}
+		},
+		"ddalpha" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "ddalpha",
+				"Type" : "Package",
+				"Title" : "Depth-Based Classification and Calculation of Data Depth",
+				"Version" : "1.3.1",
+				"Date" : "2017-09-27",
+				"Authors@R" : "c(person(\"Oleksii\", \"Pokotylo\", role=c(\"aut\", \"cre\"),\n                                          email = \"alexey.pokotylo@gmail.com\"),\n             person(\"Pavlo\", \"Mozharovskyi\", role=c(\"aut\"),\n                                          email = \"pavlo.mozharovskyi@ensai.fr\"),\n             person(\"Rainer\", \"Dyckerhoff\", role=c(\"aut\"),\n                                          email = \"rainer.dyckerhoff@statistik.uni-koeln.de\"),\n             person(\"Stanislav\", \"Nagy\", role=c(\"aut\"),\n                                          email = \"nagy@karlin.mff.cuni.cz\"))",
+				"SystemRequirements" : "C++11",
+				"Depends" : "stats, utils, graphics, grDevices, MASS, class, robustbase,\nsfsmisc",
+				"Imports" : "Rcpp (>= 0.11.0)",
+				"LinkingTo" : "BH, Rcpp",
+				"Description" : "Contains procedures for depth-based supervised learning, which are entirely non-parametric, in particular the DDalpha-procedure (Lange, Mosler and Mozharovskyi, 2014). The training data sample is transformed by a statistical depth function to a compact low-dimensional space, where the final classification is done. It also offers an extension to functional data and routines for calculating certain notions of statistical depth functions. 50 multivariate and 5 functional classification problems are included.",
+				"License" : "GPL-2",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-09-27 18:51:34 UTC; User",
+				"Author" : "Oleksii Pokotylo [aut, cre],\n  Pavlo Mozharovskyi [aut],\n  Rainer Dyckerhoff [aut],\n  Stanislav Nagy [aut]",
+				"Maintainer" : "Oleksii Pokotylo <alexey.pokotylo@gmail.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-27 20:30:35 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 00:39:33 UTC; windows"
+			}
+		},
+		"dichromat" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "dichromat",
+				"Version" : "2.0-0",
+				"Date" : "2013-01-23",
+				"Title" : "Color Schemes for Dichromats",
+				"Authors@R" : "c(person(given = \"Thomas\", family = \"Lumley\", role =\n        c(\"aut\", \"cre\"), email = \"tlumley@u.washington.edu\"),\n        person(given = \"Ken\", family = \"Knoblauch\", role = \"ctb\", email\n        = \"ken.knoblauch@inserm.fr\"), person(given = \"Scott\", family =\n        \"Waichler\", role = \"ctb\", email = \"scott.waichler@pnl.gov\"),\n        person(given = \"Achim\", family = \"Zeileis\", role = \"ctb\", email\n        = \"Achim.Zeileis@R-project.org\"))",
+				"Description" : "Collapse red-green or green-blue distinctions to simulate\n        the effects of different types of color-blindness.",
+				"Depends" : "R (>= 2.10), stats",
+				"License" : "GPL-2",
+				"LazyLoad" : "Yes",
+				"Packaged" : "2013-01-23 06:25:04 UTC; zeileis",
+				"Author" : "Thomas Lumley [aut, cre], Ken Knoblauch [ctb], Scott Waichler\n        [ctb], Achim Zeileis [ctb]",
+				"Maintainer" : "Thomas Lumley <tlumley@u.washington.edu>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2013-01-24 08:18:09",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:37:51 UTC; windows"
+			}
+		},
+		"digest" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "digest",
+				"Author" : "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang and Viliam Simko.",
+				"Version" : "0.6.12",
+				"Date" : "2017-01-26",
+				"Maintainer" : "Dirk Eddelbuettel <edd@debian.org>",
+				"Title" : "Create Compact Hash Digests of R Objects",
+				"Description" : "Implementation of a function 'digest()' for the creation \n of hash digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', \n 'crc32', 'xxhash' and 'murmurhash' algorithms) permitting easy comparison of R\n language objects, as well as a function 'hmac()' to create hash-based\n message authentication code. Please note that this package is not meant to\n be deployed for cryptographic purposes for which more comprehensive (and\n widely tested) libraries such as 'OpenSSL' should be used.",
+				"URL" : "http://dirk.eddelbuettel.com/code/digest.html",
+				"BugReports" : "https://github.com/eddelbuettel/digest/issues",
+				"Depends" : "R (>= 2.4.1)",
+				"License" : "GPL (>= 2)",
+				"Suggests" : "knitr, rmarkdown",
+				"VignetteBuilder" : "knitr",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-01-26 13:52:49.564188 UTC; edd",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-01-27 10:18:01",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-25 01:41:45 UTC; windows"
+			}
+		},
+		"dimRed" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "dimRed",
+				"Title" : "A Framework for Dimensionality Reduction",
+				"Version" : "0.1.0",
+				"Authors@R" : "person(\"Guido\", \"Kraemer\",\n    email = \"gkraemer@bgc-jena.mpg.de\",\n    role = c(\"aut\", \"cre\"))",
+				"Description" : "A collection of dimensionality reduction\n    techniques from R packages and provides a common\n    interface for calling the methods.",
+				"Depends" : "R (>= 3.0.0), methods, DRR",
+				"Suggests" : "MASS, Matrix, RANN, RSpectra, Rtsne, coRanking, diffusionMap,\nenergy, fastICA, ggplot2, graphics, igraph, kernlab, lle, loe,\noptimx, pcaPP, rgl, scales, scatterplot3d, stats, testthat,\ntidyr, vegan",
+				"License" : "GPL-3 | file LICENSE",
+				"URL" : "https://github.com/gdkrmr/dimRed",
+				"LazyData" : "true",
+				"Collate" : "'misc.R' 'dimRedData-class.R' 'dataSets.R'\n'dimRedMethod-class.R' 'dimRedResult-class.R' 'diffmap.R'\n'dimRed.R' 'drr.R' 'embed.R' 'fastica.R' 'get_info.R'\n'graph_embed.R' 'hlle.R' 'isomap.R' 'kpca.R' 'leim.R' 'lle.R'\n'loe.R' 'mds.R' 'mixColorSpaces.R' 'nmds.R' 'pca.R' 'plot.R'\n'quality.R' 'rotate.R' 'soe.R' 'tsne.R'",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-05-04 14:56:00 UTC; gkraemer",
+				"Author" : "Guido Kraemer [aut, cre]",
+				"Maintainer" : "Guido Kraemer <gkraemer@bgc-jena.mpg.de>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-05-04 15:37:41 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-04 04:06:06 UTC; windows"
+			}
+		},
+		"dplyr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Type" : "Package",
+				"Package" : "dplyr",
+				"Version" : "0.7.4",
+				"Title" : "A Grammar of Data Manipulation",
+				"Description" : "A fast, consistent tool for working with data frame like objects,\n    both in memory and out of memory.",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Romain\", \"Francois\", , \"romain@r-enthusiasts.com\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", role = \"aut\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+				"URL" : "http://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
+				"BugReports" : "https://github.com/tidyverse/dplyr/issues",
+				"Encoding" : "UTF-8",
+				"Depends" : "R (>= 3.1.2)",
+				"Imports" : "assertthat, bindrcpp (>= 0.2), glue (>= 1.1.1), magrittr,\nmethods, pkgconfig, rlang (>= 0.1.2), R6, Rcpp (>= 0.12.7),\ntibble (>= 1.3.1), utils",
+				"Suggests" : "bit64, covr, dbplyr, dtplyr, DBI, ggplot2, hms, knitr, Lahman\n(>= 3.0-1), mgcv, microbenchmark, nycflights13, rmarkdown,\nRMySQL, RPostgreSQL, RSQLite, testthat, withr",
+				"VignetteBuilder" : "knitr",
+				"LinkingTo" : "Rcpp (>= 0.12.0), BH (>= 1.58.0-1), bindrcpp, plogr",
+				"LazyData" : "yes",
+				"License" : "MIT + file LICENSE",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-09-16 15:25:52 UTC; muelleki",
+				"Author" : "Hadley Wickham [aut, cre],\n  Romain Francois [aut],\n  Lionel Henry [aut],\n  Kirill Müller [aut],\n  RStudio [cph, fnd]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-28 20:43:29 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-30 14:31:45 UTC; windows"
+			}
+		},
+		"foreach" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "foreach",
+				"Type" : "Package",
+				"Title" : "Provides Foreach Looping Construct for R",
+				"Version" : "1.4.3",
+				"Authors@R" : "c(person(\"Rich\", \"Calaway\", role=\"cre\", email=\"richcala@microsoft.com\"),\n             person(\"Revolution\", \"Analytics\", role=c(\"aut\", \"cph\")),\n\t\t\t person(\"Steve\", \"Weston\", role=\"aut\"))",
+				"Description" : "Support for the foreach looping construct.  Foreach is an\n        idiom that allows for iterating over elements in a collection,\n        without the use of an explicit loop counter.  This package in\n        particular is intended to be used for its return value, rather\n        than for its side effects.  In that sense, it is similar to the\n        standard lapply function, but doesn't require the evaluation\n        of a function.  Using foreach without side effects also\n        facilitates executing the loop in parallel.",
+				"Depends" : "R (>= 2.5.0)",
+				"Imports" : "codetools, utils, iterators",
+				"Suggests" : "randomForest",
+				"Enhances" : "compiler, doMC, RUnit, doParallel",
+				"License" : "Apache License (== 2.0)",
+				"Author" : "Rich Calaway [cre],\n  Revolution Analytics [aut, cph],\n  Steve Weston [aut]",
+				"Maintainer" : "Rich Calaway <richcala@microsoft.com>",
+				"Repository" : "CRAN",
+				"Repository/R-Forge/Project" : "foreach",
+				"Repository/R-Forge/Revision" : "27",
+				"Repository/R-Forge/DateTimeStamp" : "2015-10-12 01:37:31",
+				"Date/Publication" : "2015-10-13 09:12:53",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2015-10-12 02:26:29 UTC; rforge",
+				"Built" : "R 3.4.3; ; 2017-12-03 23:47:01 UTC; windows"
+			}
+		},
+		"foreign" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "foreign",
+				"Priority" : "recommended",
+				"Version" : "0.8-69",
+				"Date" : "2017-06-21",
+				"Title" : "Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata',\n'Systat', 'Weka', 'dBase', ...",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "methods, utils, stats",
+				"Authors@R" : "c(\n   person(\"R Core Team\",\n      email = \"R-core@R-project.org\", role = c(\"aut\", \"cph\", \"cre\")),\n    person(\"Roger\", \"Bivand\", role = c(\"ctb\", \"cph\")),\n    person(c(\"Vincent\", \"J.\"), \"Carey\", role = c(\"ctb\", \"cph\")),\n    person(\"Saikat\", \"DebRoy\", role = c(\"ctb\", \"cph\")),\n    person(\"Stephen\", \"Eglen\", role = c(\"ctb\", \"cph\")),\n    person(\"Rajarshi\", \"Guha\", role = c(\"ctb\", \"cph\")),\n    person(\"Swetlana\", \"Herbrandt\", role = \"ctb\"),\n    person(\"Nicholas\", \"Lewin-Koh\", role = c(\"ctb\", \"cph\")),\n    person(\"Mark\", \"Myatt\", role = c(\"ctb\", \"cph\")),\n    person(\"Ben\", \"Pfaff\", role = \"ctb\"),\n    person(\"Brian\", \"Quistorff\", role = \"ctb\"),\n    person(\"Frank\", \"Warmerdam\", role = c(\"ctb\", \"cph\")),\n    person(\"Stephen\", \"Weigand\", role = c(\"ctb\", \"cph\")),\n    person(\"Free Software Foundation, Inc.\", role = \"cph\"))",
+				"Copyright" : "see file COPYRIGHTS",
+				"Description" : "Reading and writing data stored by some versions of\n\t'Epi Info', 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka',\n\tand for reading and writing some 'dBase' files.",
+				"ByteCompile" : "yes",
+				"Biarch" : "yes",
+				"License" : "GPL (>= 2)",
+				"BugReports" : "https://bugs.r-project.org",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-06-21 15:59:59 UTC; ligges",
+				"Author" : "R Core Team [aut, cph, cre],\n  Roger Bivand [ctb, cph],\n  Vincent J. Carey [ctb, cph],\n  Saikat DebRoy [ctb, cph],\n  Stephen Eglen [ctb, cph],\n  Rajarshi Guha [ctb, cph],\n  Swetlana Herbrandt [ctb],\n  Nicholas Lewin-Koh [ctb, cph],\n  Mark Myatt [ctb, cph],\n  Ben Pfaff [ctb],\n  Brian Quistorff [ctb],\n  Frank Warmerdam [ctb, cph],\n  Stephen Weigand [ctb, cph],\n  Free Software Foundation, Inc. [cph]",
+				"Maintainer" : "R Core Team <R-core@R-project.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-06-22 08:20:36 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:56:41 UTC; windows"
+			}
+		},
+		"ggplot2" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "ggplot2",
+				"Version" : "3.0.0",
+				"Title" : "Create Elegant Data Visualisations Using the Grammar of Graphics",
+				"Description" : "A system for 'declaratively' creating graphics,\n    based on \"The Grammar of Graphics\". You provide the data, tell 'ggplot2'\n    how to map variables to aesthetics, what graphical primitives to use,\n    and it takes care of the details.",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Winston\", \"Chang\", , role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , role = \"aut\"),\n    person(\"Thomas Lin\", \"Pedersen\", role = \"aut\"),\n    person(\"Kohske\", \"Takahashi\", role = \"aut\"),\n    person(\"Claus\", \"Wilke\", role = \"aut\"),\n    person(\"Kara\", \"Woo\", role = \"aut\"),\n    person(\"RStudio\", role = c(\"cph\"))\n    )",
+				"Depends" : "R (>= 3.1)",
+				"Imports" : "digest, grid, gtable (>= 0.1.1), lazyeval, MASS, mgcv, plyr\n(>= 1.7.1), reshape2, rlang, scales (>= 0.5.0), stats, tibble,\nviridisLite, withr (>= 2.0.0)",
+				"Suggests" : "covr, dplyr, ggplot2movies, hexbin, Hmisc, lattice, mapproj,\nmaps, maptools, multcomp, munsell, nlme, testthat (>= 0.11.0),\nvdiffr, quantreg, knitr, rgeos, rpart, rmarkdown, sf (>=\n0.3-4), svglite (>= 1.2.0.9001)",
+				"Enhances" : "sp",
+				"License" : "GPL-2 | file LICENSE",
+				"URL" : "http://ggplot2.tidyverse.org, https://github.com/tidyverse/ggplot2",
+				"BugReports" : "https://github.com/tidyverse/ggplot2/issues",
+				"LazyData" : "true",
+				"Collate" : "'ggproto.r' 'aaa-.r' 'aes-calculated.r'\n'aes-colour-fill-alpha.r' 'aes-group-order.r'\n'aes-linetype-size-shape.r' 'aes-position.r' 'utilities.r'\n'aes.r' 'legend-draw.r' 'geom-.r' 'annotation-custom.r'\n'annotation-logticks.r' 'geom-polygon.r' 'geom-map.r'\n'annotation-map.r' 'geom-raster.r' 'annotation-raster.r'\n'annotation.r' 'autolayer.r' 'autoplot.r' 'axis-secondary.R'\n'backports.R' 'bench.r' 'bin.R' 'compat-quosures.R' 'coord-.r'\n'coord-cartesian-.r' 'coord-fixed.r' 'coord-flip.r'\n'coord-map.r' 'coord-munch.r' 'coord-polar.r'\n'coord-quickmap.R' 'coord-transform.r' 'data.R' 'facet-.r'\n'facet-grid-.r' 'facet-null.r' 'facet-wrap.r' 'fortify-lm.r'\n'fortify-map.r' 'fortify-multcomp.r' 'fortify-spatial.r'\n'fortify.r' 'stat-.r' 'geom-abline.r' 'geom-rect.r'\n'geom-bar.r' 'geom-bin2d.r' 'geom-blank.r' 'geom-boxplot.r'\n'geom-col.r' 'geom-path.r' 'geom-contour.r' 'geom-count.r'\n'geom-crossbar.r' 'geom-segment.r' 'geom-curve.r'\n'geom-defaults.r' 'geom-ribbon.r' 'geom-density.r'\n'geom-density2d.r' 'geom-dotplot.r' 'geom-errorbar.r'\n'geom-errorbarh.r' 'geom-freqpoly.r' 'geom-hex.r'\n'geom-histogram.r' 'geom-hline.r' 'geom-jitter.r'\n'geom-label.R' 'geom-linerange.r' 'geom-point.r'\n'geom-pointrange.r' 'geom-quantile.r' 'geom-rug.r'\n'geom-smooth.r' 'geom-spoke.r' 'geom-text.r' 'geom-tile.r'\n'geom-violin.r' 'geom-vline.r' 'ggplot2.r' 'grob-absolute.r'\n'grob-dotstack.r' 'grob-null.r' 'grouping.r' 'guide-colorbar.r'\n'guide-legend.r' 'guides-.r' 'guides-axis.r' 'guides-grid.r'\n'hexbin.R' 'labeller.r' 'labels.r' 'layer.r' 'layout.R'\n'limits.r' 'margins.R' 'plot-build.r' 'plot-construction.r'\n'plot-last.r' 'plot.r' 'position-.r' 'position-collide.r'\n'position-dodge.r' 'position-dodge2.r' 'position-identity.r'\n'position-jitter.r' 'position-jitterdodge.R' 'position-nudge.R'\n'position-stack.r' 'quick-plot.r' 'range.r' 'save.r' 'scale-.r'\n'scale-alpha.r' 'scale-brewer.r' 'scale-colour.r'\n'scale-continuous.r' 'scale-date.r' 'scale-discrete-.r'\n'scale-gradient.r' 'scale-grey.r' 'scale-hue.r'\n'scale-identity.r' 'scale-linetype.r' 'scale-manual.r'\n'scale-shape.r' 'scale-size.r' 'scale-type.R' 'scale-viridis.r'\n'scales-.r' 'sf.R' 'stat-bin.r' 'stat-bin2d.r' 'stat-bindot.r'\n'stat-binhex.r' 'stat-boxplot.r' 'stat-contour.r'\n'stat-count.r' 'stat-density-2d.r' 'stat-density.r'\n'stat-ecdf.r' 'stat-ellipse.R' 'stat-function.r'\n'stat-identity.r' 'stat-qq-line.R' 'stat-qq.r'\n'stat-quantile.r' 'stat-smooth-methods.r' 'stat-smooth.r'\n'stat-sum.r' 'stat-summary-2d.r' 'stat-summary-bin.R'\n'stat-summary-hex.r' 'stat-summary.r' 'stat-unique.r'\n'stat-ydensity.r' 'summarise-plot.R' 'summary.r'\n'theme-elements.r' 'theme.r' 'theme-defaults.r'\n'theme-current.R' 'translate-qplot-ggplot.r'\n'translate-qplot-lattice.r' 'utilities-break.r'\n'utilities-grid.r' 'utilities-help.r' 'utilities-matrix.r'\n'utilities-resolution.r' 'utilities-table.r'\n'utilities-tidy-eval.R' 'zxx.r' 'zzz.r'",
+				"VignetteBuilder" : "knitr",
+				"RoxygenNote" : "6.0.1.9000",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2018-07-02 15:13:15 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre],\n  Winston Chang [aut],\n  Lionel Henry [aut],\n  Thomas Lin Pedersen [aut],\n  Kohske Takahashi [aut],\n  Claus Wilke [aut],\n  Kara Woo [aut],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-07-03 17:20:03 UTC",
+				"Built" : "R 3.4.4; ; 2018-08-16 14:46:46 UTC; windows"
+			}
+		},
+		"ggthemes" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "ggthemes",
+				"Version" : "4.0.0",
+				"Title" : "Extra Themes, Scales and Geoms for 'ggplot2'",
+				"Authors@R" : "c(person(\"Jeffrey B.\", \"Arnold\", role = c(\"aut\", \"cre\"),\n    email = \"jeffrey.arnold@gmail.com\", comment = c(ORCID = \"0000-0001-9953-3904\")),\n    person(\"Gergely\", \"Daroczi\", role = \"ctb\"),\n    person(\"Bo\", \"Werth\", role = \"ctb\"),\n    person(\"Brian\", \"Weitzner\", role = \"ctb\"),\n    person(\"Joshua\", \"Kunst\", role = \"ctb\"),\n    person(\"Baptise\", \"Auguie\", role = \"ctb\"),\n    person(\"Bob\", \"Rudis\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = c(\"ctb\"),\n    comment = \"Code from the ggplot2 package.\"),\n    person(\"Justin\",  \"Talbot\", role = \"ctb\",\n    comment = \"Code from the labeling package\"),\n    person(\"Joshua\", \"London\", role = \"ctb\"))",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "ggplot2 (>= 3.0.0), graphics, grid, methods, purrr, scales,\nstringr, tibble",
+				"Suggests" : "dplyr, covr, extrafont, glue, knitr, lintr, maps, mapproj,\npander, rlang, rmarkdown, spelling, testthat, tidyr, vdiffr,\nwithr",
+				"Description" : "Some extra themes, geoms, and scales for 'ggplot2'.\n    Provides 'ggplot2' themes and scales that replicate the look of plots\n    by Edward Tufte, Stephen Few, 'Fivethirtyeight', 'The Economist', 'Stata',\n    'Excel', and 'The Wall Street Journal', among others.\n    Provides 'geoms' for Tufte's box plot and range frame.",
+				"License" : "GPL-2",
+				"URL" : "http://github.com/jrnold/ggthemes",
+				"BugReports" : "http://github.com/jrnold/ggthemes",
+				"RoxygenNote" : "6.0.1.9000",
+				"LazyData" : "true",
+				"Language" : "en-US",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2018-07-17 22:57:05 UTC; jrnold",
+				"Author" : "Jeffrey B. Arnold [aut, cre] (<https://orcid.org/0000-0001-9953-3904>),\n  Gergely Daroczi [ctb],\n  Bo Werth [ctb],\n  Brian Weitzner [ctb],\n  Joshua Kunst [ctb],\n  Baptise Auguie [ctb],\n  Bob Rudis [ctb],\n  Hadley Wickham [ctb] (Code from the ggplot2 package.),\n  Justin Talbot [ctb] (Code from the labeling package),\n  Joshua London [ctb]",
+				"Maintainer" : "Jeffrey B. Arnold <jeffrey.arnold@gmail.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-07-19 11:30:03 UTC",
+				"Built" : "R 3.4.4; ; 2018-08-16 14:49:23 UTC; windows"
+			}
+		},
+		"glue" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "glue",
+				"Title" : "Interpreted String Literals",
+				"Version" : "1.2.0",
+				"Authors@R" : "person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\"))",
+				"Description" : "An implementation of interpreted string literals, inspired by\n  Python's Literal String Interpolation <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n  <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted String Literals\n  <https://docs.julialang.org/en/stable/manual/strings/#triple-quoted-string-literals>.",
+				"Depends" : "R (>= 3.1)",
+				"Suggests" : "testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,\nRSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,\nggplot2",
+				"Imports" : "methods",
+				"License" : "MIT + file LICENSE",
+				"Encoding" : "UTF-8",
+				"LazyData" : "true",
+				"RoxygenNote" : "6.0.1",
+				"URL" : "https://github.com/tidyverse/glue",
+				"BugReports" : "https://github.com/tidyverse/glue/issues",
+				"VignetteBuilder" : "knitr",
+				"ByteCompile" : "true",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-10-29 19:05:15 UTC; jhester",
+				"Author" : "Jim Hester [aut, cre]",
+				"Maintainer" : "Jim Hester <james.f.hester@gmail.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-10-29 20:03:53 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-30 12:23:55 UTC; windows"
+			}
+		},
+		"gower" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "gower",
+				"Maintainer" : "Mark van der Loo <mark.vanderloo@gmail.com>",
+				"License" : "GPL-3",
+				"Title" : "Gower's Distance",
+				"LazyData" : "no",
+				"Type" : "Package",
+				"LazyLoad" : "yes",
+				"Authors@R" : "c( person(\"Mark\", \"van der Loo\", role=c(\"aut\",\"cre\"),email=\"mark.vanderloo@gmail.com\"))",
+				"Description" : "Compute Gower's distance (or similarity) coefficient between records. Compute \n    the top-n matches between records. Core algorithms are executed in parallel on systems\n    supporting OpenMP.",
+				"Version" : "0.1.2",
+				"URL" : "https://github.com/markvanderloo/gower",
+				"BugReports" : "https://github.com/markvanderloo/gower/issues",
+				"Date" : "2017-02-23",
+				"Suggests" : "testthat, knitr, rmarkdown",
+				"RoxygenNote" : "6.0.1",
+				"VignetteBuilder" : "knitr",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-02-23 20:13:17 UTC; mark",
+				"Author" : "Mark van der Loo [aut, cre]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-02-23 23:35:17",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-03 23:48:16 UTC; windows"
+			}
+		},
+		"gtable" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "gtable",
+				"Version" : "0.2.0",
+				"Title" : "Arrange 'Grobs' in Tables",
+				"Description" : "Tools to make it easier to work with \"tables\" of 'grobs'.",
+				"Authors@R" : "person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"))",
+				"Depends" : "R (>= 2.14)",
+				"Imports" : "grid",
+				"Suggests" : "testthat, covr",
+				"License" : "GPL-2",
+				"Collate" : "'add-grob.r' 'add-rows-cols.r' 'add-space.r' 'grid.r'\n'gtable-layouts.r' 'gtable.r' 'rbind-cbind.r' 'utils.r'\n'trim.r' 'filter.r' 'align.r' 'padding.r' 'z.r'",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-02-26 13:06:10 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-02-26 15:23:14",
+				"Built" : "R 3.4.2; ; 2017-11-27 11:01:56 UTC; windows"
+			}
+		},
+		"gtools" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "gtools",
+				"Title" : "Various R Programming Tools",
+				"Description" : "Functions to assist in R programming, including:\n  - assist in developing, updating, and maintaining R and R packages ('ask', 'checkRVersion',\n    'getDependencies', 'keywords', 'scat'),\n  - calculate the logit and inverse logit transformations ('logit', 'inv.logit'),\n  - test if a value is missing, empty or contains only NA and NULL values ('invalid'),\n  - manipulate R's .Last function ('addLast'),\n  - define macros ('defmacro'),\n  - detect odd and even integers ('odd', 'even'),\n  - convert strings containing non-ASCII characters (like single quotes) to plain ASCII ('ASCIIfy'),\n  - perform a binary search ('binsearch'),\n  - sort strings containing both numeric and character components ('mixedsort'),\n  - create a factor variable from the quantiles of a continuous variable ('quantcut'),\n  - enumerate permutations and combinations ('combinations', 'permutation'),\n  - calculate and convert between fold-change and log-ratio ('foldchange',\n    'logratio2foldchange', 'foldchange2logratio'),\n  - calculate probabilities and generate random numbers from Dirichlet distributions\n    ('rdirichlet', 'ddirichlet'),\n  - apply a function over adjacent subsets of a vector ('running'),\n  - modify the TCP\\_NODELAY ('de-Nagle') flag for socket objects,\n  - efficient 'rbind' of data frames, even if the column names don't match ('smartbind'),\n  - generate significance stars from p-values ('stars.pval'),\n  - convert characters to/from ASCII codes ('asc', 'chr'),\n  - convert character vector to ASCII representation ('ASCIIfy').",
+				"Version" : "3.8.1",
+				"Date" : "2018-06-19",
+				"Author" : "Gregory R. Warnes, Ben Bolker, and Thomas Lumley",
+				"Maintainer" : "Gregory R. Warnes <greg@warnes.net>",
+				"License" : "GPL-2",
+				"Depends" : "methods, stats, utils",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2018-06-25 14:51:36 UTC; gwarnes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-06-26 14:37:57 UTC",
+				"Built" : "R 3.4.4; x86_64-w64-mingw32; 2018-06-26 18:49:39 UTC; windows"
+			}
+		},
+		"htmltools" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "htmltools",
+				"Type" : "Package",
+				"Title" : "Tools for HTML",
+				"Version" : "0.3.6",
+				"Date" : "2017-04-26",
+				"Author" : "RStudio, Inc.",
+				"Maintainer" : "Joe Cheng <joe@rstudio.com>",
+				"Description" : "Tools for HTML generation and output.",
+				"Depends" : "R (>= 2.14.1)",
+				"Imports" : "utils, digest, Rcpp",
+				"Suggests" : "markdown, testthat",
+				"Enhances" : "knitr",
+				"License" : "GPL (>= 2)",
+				"URL" : "https://github.com/rstudio/htmltools",
+				"BugReports" : "https://github.com/rstudio/htmltools/issues",
+				"RoxygenNote" : "6.0.1",
+				"LinkingTo" : "Rcpp",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-04-27 00:04:32 UTC; jcheng",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-04-28 07:41:46 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-27 11:53:09 UTC; windows"
+			}
+		},
+		"htmlwidgets" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "htmlwidgets",
+				"Type" : "Package",
+				"Title" : "HTML Widgets for R",
+				"Version" : "1.2",
+				"Authors@R" : "c(\n    person(\"Ramnath\", \"Vaidyanathan\", role = c(\"aut\", \"cph\")),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\")),\n    person(\"JJ\", \"Allaire\", role = c(\"aut\", \"cre\"), email = \"jj@rstudio.com\"),\n    person(\"Joe\", \"Cheng\", role = c(\"aut\")),\n    person(\"Kenton\", \"Russell\", role = c(\"aut\", \"cph\")),\n    person(family = \"RStudio\", role = \"cph\")\n    )",
+				"Description" : "A framework for creating HTML widgets that render in various\n    contexts including the R console, 'R Markdown' documents, and 'Shiny'\n    web applications.",
+				"License" : "MIT + file LICENSE",
+				"VignetteBuilder" : "knitr",
+				"Imports" : "grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",
+				"Suggests" : "knitr (>= 1.8)",
+				"Enhances" : "shiny (>= 1.0.5)",
+				"URL" : "https://github.com/ramnathv/htmlwidgets",
+				"BugReports" : "https://github.com/ramnathv/htmlwidgets/issues",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2018-04-18 14:06:07 UTC; jjallaire",
+				"Author" : "Ramnath Vaidyanathan [aut, cph],\n  Yihui Xie [aut],\n  JJ Allaire [aut, cre],\n  Joe Cheng [aut],\n  Kenton Russell [aut, cph],\n  RStudio [cph]",
+				"Maintainer" : "JJ Allaire <jj@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-04-19 12:43:03 UTC",
+				"Built" : "R 3.4.4; ; 2018-08-16 13:37:01 UTC; windows"
+			}
+		},
+		"httpuv" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "httpuv",
+				"Type" : "Package",
+				"Title" : "HTTP and WebSocket Server Library",
+				"Version" : "1.3.5",
+				"Author" : "Joe Cheng, Hector Corrada Bravo [ctb], Jeroen Ooms [ctb],\n    Winston Chang [ctb]",
+				"Copyright" : "RStudio, Inc.; Joyent, Inc.; Nginx Inc.; Igor Sysoev; Niels\nProvos; Internet Systems Consortium, Inc.; Alexander Chemeris",
+				"Maintainer" : "Joe Cheng <joe@rstudio.com>",
+				"Description" : "Provides low-level socket and protocol support for handling\n    HTTP and WebSocket requests directly from within R. It is primarily\n    intended as a building block for other packages, rather than making it\n    particularly easy to create complete web applications using httpuv alone.\n    httpuv is built on top of the libuv and http-parser C libraries, both of\n    which were developed by Joyent, Inc. (See LICENSE file for libuv and\n    http-parser license information.)",
+				"License" : "GPL-3 | file LICENSE",
+				"Depends" : "R (>= 2.15.1), methods",
+				"Imports" : "Rcpp (>= 0.11.0), utils",
+				"LinkingTo" : "Rcpp",
+				"URL" : "https://github.com/rstudio/httpuv",
+				"SystemRequirements" : "GNU make",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-07-03 21:47:04 UTC; jcheng",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-07-04 07:02:15 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-27 11:53:14 UTC; windows"
+			}
+		},
+		"ipred" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "ipred",
+				"Title" : "Improved Predictors",
+				"Version" : "0.9-6",
+				"Date" : "2017-03-01",
+				"Authors@R" : "c(person(\"Andrea\", \"Peters\", role = \"aut\"),\n             person(\"Torsten\", \"Hothorn\", role = c(\"aut\", \"cre\"),\n                    email = \"Torsten.Hothorn@R-project.org\"),\n             person(\"Brian D.\", \"Ripley\", role = \"ctb\"),\n             person(\"Terry\", \"Therneau\", role = \"ctb\"), \n             person(\"Beth\", \"Atkinson\", role = \"ctb\"))",
+				"Description" : "Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems \n  as well as resampling based estimators of prediction error. ",
+				"Depends" : "R (>= 2.10)",
+				"Imports" : "rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",
+				"Suggests" : "mvtnorm, mlbench, TH.data",
+				"License" : "GPL (>= 2)",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-03-01 14:07:15 UTC; hothorn",
+				"Author" : "Andrea Peters [aut],\n  Torsten Hothorn [aut, cre],\n  Brian D. Ripley [ctb],\n  Terry Therneau [ctb],\n  Beth Atkinson [ctb]",
+				"Maintainer" : "Torsten Hothorn <Torsten.Hothorn@R-project.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-03-01 19:05:51",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 04:06:05 UTC; windows"
+			}
+		},
+		"iterators" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "iterators",
+				"Type" : "Package",
+				"Title" : "Provides Iterator Construct for R",
+				"Version" : "1.0.8",
+				"Authors@R" : "c(person(\"Rich\", \"Calaway\", role=\"cre\", email=\"richcala@microsoft.com\"),\n             person(\"Revolution\", \"Analytics\", role=c(\"aut\", \"cph\")),\n\t\t\t person(\"Steve\", \"Weston\", role=\"aut\"))",
+				"Description" : "Support for iterators, which allow a programmer to traverse\n        through all the elements of a vector, list, or other collection\n        of data.",
+				"Depends" : "R (>= 2.5.0), utils",
+				"Suggests" : "RUnit",
+				"License" : "Apache License (== 2.0)",
+				"Author" : "Rich Calaway [cre],\n  Revolution Analytics [aut, cph],\n  Steve Weston [aut]",
+				"Maintainer" : "Rich Calaway <richcala@microsoft.com>",
+				"Repository" : "CRAN",
+				"Repository/R-Forge/Project" : "foreach",
+				"Repository/R-Forge/Revision" : "27",
+				"Repository/R-Forge/DateTimeStamp" : "2015-10-12 01:37:31",
+				"Date/Publication" : "2015-10-13 09:12:54",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2015-10-12 02:25:27 UTC; rforge",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:39:49 UTC; windows"
+			}
+		},
+		"jsonlite" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "jsonlite",
+				"Version" : "1.5",
+				"Title" : "A Robust, High Performance JSON Parser and Generator for R",
+				"License" : "MIT + file LICENSE",
+				"NeedsCompilation" : "yes",
+				"Depends" : "methods",
+				"Author" : "Jeroen Ooms, Duncan Temple Lang, Lloyd Hilaiel",
+				"URL" : "https://arxiv.org/abs/1403.2805,\nhttps://www.opencpu.org/posts/jsonlite-a-smarter-json-encoder",
+				"BugReports" : "http://github.com/jeroen/jsonlite/issues",
+				"Maintainer" : "Jeroen Ooms <jeroen@berkeley.edu>",
+				"VignetteBuilder" : "knitr, R.rsp",
+				"Description" : "A fast JSON parser and generator optimized for statistical data\n    and the web. Started out as a fork of 'RJSONIO', but has been completely\n    rewritten in recent versions. The package offers flexible, robust, high\n    performance tools for working with JSON in R and is particularly powerful\n    for building pipelines and interacting with a web API. The implementation is\n    based on the mapping described in the vignette (Ooms, 2014). In addition to\n    converting JSON data from/to R objects, 'jsonlite' contains functions to\n    stream, validate, and prettify JSON data. The unit tests included with the\n    package verify that all edge cases are encoded and decoded consistently for\n    use with dynamic data in systems and applications.",
+				"Suggests" : "httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp",
+				"RoxygenNote" : "6.0.1.9000",
+				"Packaged" : "2017-05-31 14:03:43 UTC; jeroen",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-06-01 12:03:37 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-25 01:41:46 UTC; windows"
+			}
+		},
+		"kernlab" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "kernlab",
+				"Version" : "0.9-25",
+				"Title" : "Kernel-Based Machine Learning Lab",
+				"Authors@R" : "c(person(\"Alexandros\", \"Karatzoglou\", role = c(\"aut\", \"cre\"),\n                    email = \"alexandros.karatzoglou@gmail.com\"),\n             person(\"Alex\", \"Smola\", role = \"aut\"),\n             person(\"Kurt\", \"Hornik\", role = \"aut\"))",
+				"Description" : "Kernel-based machine learning methods for classification,\n        regression, clustering, novelty detection, quantile regression\n        and dimensionality reduction.  Among other methods 'kernlab'\n        includes Support Vector Machines, Spectral Clustering, Kernel\n        PCA, Gaussian Processes and a QP solver.",
+				"Depends" : "R (>= 2.10)",
+				"Imports" : "methods, stats, grDevices, graphics",
+				"LazyLoad" : "Yes",
+				"License" : "GPL-2",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-10-03 06:52:15 UTC; hornik",
+				"Author" : "Alexandros Karatzoglou [aut, cre],\n  Alex Smola [aut],\n  Kurt Hornik [aut]",
+				"Maintainer" : "Alexandros Karatzoglou <alexandros.karatzoglou@gmail.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-10-03 09:43:44",
+				"Built" : "R 3.4.1; x86_64-w64-mingw32; 2017-08-16 00:42:40 UTC; windows"
+			}
+		},
+		"labeling" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "labeling",
+				"Type" : "Package",
+				"Title" : "Axis Labeling",
+				"Version" : "0.3",
+				"Date" : "2014-08-22",
+				"Author" : "Justin Talbot",
+				"Maintainer" : "Justin Talbot <justintalbot@gmail.com>",
+				"Description" : "Provides a range of axis labeling algorithms",
+				"License" : "MIT + file LICENSE | Unlimited",
+				"LazyLoad" : "no",
+				"Collate" : "'labeling.R'",
+				"Repository" : "CRAN",
+				"Repository/R-Forge/Project" : "labeling",
+				"Repository/R-Forge/Revision" : "16",
+				"Repository/R-Forge/DateTimeStamp" : "2014-08-23 05:53:23",
+				"Date/Publication" : "2014-08-23 14:57:53",
+				"Packaged" : "2014-08-23 06:15:07 UTC; rforge",
+				"NeedsCompilation" : "no",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:37:51 UTC; windows"
+			}
+		},
+		"lattice" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "lattice",
+				"Version" : "0.20-35",
+				"Date" : "2017-03-23",
+				"Priority" : "recommended",
+				"Title" : "Trellis Graphics for R",
+				"Author" : "Deepayan Sarkar <deepayan.sarkar@r-project.org>",
+				"Maintainer" : "Deepayan Sarkar <deepayan.sarkar@r-project.org>",
+				"Description" : "A powerful and elegant high-level data visualization\n  system inspired by Trellis graphics, with an emphasis on\n  multivariate data. Lattice is sufficient for typical graphics needs,\n  and is also flexible enough to handle most nonstandard requirements.\n  See ?Lattice for an introduction.",
+				"Depends" : "R (>= 3.0.0)",
+				"Suggests" : "KernSmooth, MASS, latticeExtra",
+				"Imports" : "grid, grDevices, graphics, stats, utils",
+				"Enhances" : "chron",
+				"LazyLoad" : "yes",
+				"LazyData" : "yes",
+				"License" : "GPL (>= 2)",
+				"URL" : "http://lattice.r-forge.r-project.org/",
+				"BugReports" : "https://github.com/deepayan/lattice/issues",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-03-25 11:25:40 UTC; deepayan",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-03-25 18:05:47 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:50:01 UTC; windows"
+			}
+		},
+		"lava" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "lava",
+				"Type" : "Package",
+				"Title" : "Latent Variable Models",
+				"Version" : "1.5.1",
+				"Date" : "2017-09-25",
+				"Authors@R" : "c(person(\"Klaus K.\", \"Holst\", email=\"klaus@holst.it\", role=c(\"aut\", \"cre\")),\n             person(\"Brice\", \"Ozenne\", role = \"ctb\"),\n             person(\"Thomas\", \"Gerds\", role = \"ctb\"))",
+				"Author" : "Klaus K. Holst [aut, cre],\n        Brice Ozenne [ctb],\n        Thomas Gerds [ctb]",
+				"Maintainer" : "Klaus K. Holst <klaus@holst.it>",
+				"Description" : "A general implementation of Structural Equation Models\n\twith latent variables (MLE, 2SLS, and composite likelihood\n\testimators) with both continuous, censored, and ordinal\n\toutcomes (Holst and Budtz-Joergensen (2013)\n\t<doi:10.1007/s00180-012-0344-y>). The package also provides\n\tmethods for graph exploration (d-separation, back-door criterion),\n\tsimulation of general non-linear latent variable models, and\n\testimation of influence functions for a broad range of statistical \n\tmodels.",
+				"URL" : "https://github.com/kkholst/lava",
+				"BugReports" : "https://github.com/kkholst/lava/issues",
+				"License" : "GPL-3",
+				"LazyLoad" : "yes",
+				"Depends" : "R (>= 3.0)",
+				"Imports" : "grDevices, graphics, methods, numDeriv, stats, survival, utils",
+				"Suggests" : "KernSmooth, Matrix, Rgraphviz, ascii, data.table, fields,\nforeach, geepack, gof (>= 0.9), graph, igraph (>= 0.6),\nlava.tobit, lme4, mets (>= 1.1), optimx, quantreg, rgl,\ntestthat (>= 0.11), visNetwork, zoo",
+				"ByteCompile" : "yes",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-09-27 20:46:26 UTC; klaus",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-27 21:25:09 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-04 01:40:14 UTC; windows"
+			}
+		},
+		"lazyeval" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "lazyeval",
+				"Version" : "0.2.1",
+				"Title" : "Lazy (Non-Standard) Evaluation",
+				"Description" : "An alternative approach to non-standard evaluation using\n    formulas. Provides a full implementation of LISP style 'quasiquotation',\n    making it easier to generate code with other code.",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"License" : "GPL-3",
+				"LazyData" : "true",
+				"Depends" : "R (>= 3.1.0)",
+				"Suggests" : "knitr, rmarkdown (>= 0.2.65), testthat, covr",
+				"VignetteBuilder" : "knitr",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-10-18 22:37:44 UTC; lionel",
+				"Author" : "Hadley Wickham [aut, cre],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-10-29 22:59:36 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-25 01:41:52 UTC; windows"
+			}
+		},
+		"lubridate" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "lubridate",
+				"Type" : "Package",
+				"Version" : "1.7.1",
+				"Title" : "Make Dealing with Dates a Little Easier",
+				"Description" : "Functions to work with date-times and time-spans: fast and user\n    friendly parsing of date-time data, extraction and updating of components of\n    a date-time (years, months, days, hours, minutes, and seconds), algebraic\n    manipulation on date-time and time-span objects. The 'lubridate' package has\n    a consistent and memorable syntax that makes working with dates easy and\n    fun.\n    Parts of the 'CCTZ' source code, released under the Apache 2.0 License,\n    are included in this package. See <https://github.com/google/cctz> for more\n    details.",
+				"Authors@R" : "c(\n    person(\"Vitalie\", \"Spinu\", email = \"spinuvit@gmail.com\", role = c(\"aut\",\"cre\")),\n    person(\"Garrett\", \"Grolemund\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Ian\", \"Lyttle\", role=\"ctb\"),\n    person(\"Imanuel\", \"Constigan\", role = \"ctb\"),\n    person(\"Jason\", \"Law\", role=\"ctb\"),\n    person(\"Doug\",\"Mitarotonda\", role=\"ctb\"),\n    person(\"Joseph\", \"Larmarange\", role=\"ctb\"),\n    person(\"Jonathan\", \"Boiser\", role=\"ctb\"),\n    person(\"Chel Hee\", \"Lee\", role = \"ctb\")\n    )",
+				"Maintainer" : "Vitalie Spinu <spinuvit@gmail.com>",
+				"License" : "GPL-2",
+				"Depends" : "methods, R (>= 3.0.0)",
+				"Imports" : "stringr, Rcpp (>= 0.11),",
+				"LinkingTo" : "Rcpp,",
+				"Suggests" : "testthat, knitr, covr",
+				"Enhances" : "chron, fts, timeSeries, timeDate, tis, tseries, xts, zoo",
+				"SystemRequirements" : "A system with zoneinfo data (e.g.\n/usr/share/zoneinfo) as well as a recent-enough C++11 compiler\n(such as g++-4.8 or later). On Windows the zoneinfo included\nwith R is used.",
+				"VignetteBuilder" : "knitr",
+				"LazyData" : "true",
+				"Collate" : "'Dates.r' 'POSIXt.r' 'RcppExports.R' 'util.r' 'timespans.r'\n'intervals.r' 'difftimes.r' 'durations.r' 'periods.r'\n'accessors-date.R' 'accessors-day.r' 'accessors-dst.r'\n'accessors-hour.r' 'accessors-minute.r' 'accessors-month.r'\n'accessors-quarter.r' 'accessors-second.r' 'accessors-tz.r'\n'accessors-week.r' 'accessors-year.r' 'am-pm.r' 'time-zones.r'\n'numeric.r' 'coercion.r' 'constants.r' 'data.r'\n'decimal-dates.r' 'deprecated.r' 'guess.r' 'hidden.r'\n'instants.r' 'leap-years.r' 'ops-addition.r' 'ops-compare.r'\n'ops-division.r' 'ops-integer-division.r' 'ops-m+.r'\n'ops-modulo.r' 'ops-multiplication.r' 'ops-subtraction.r'\n'package.r' 'parse.r' 'pretty.r' 'round.r' 'stamp.r' 'update.r'\n'zzz.R'",
+				"RoxygenNote" : "6.0.1",
+				"URL" : "http://lubridate.tidyverse.org,\nhttps://github.com/tidyverse/lubridate",
+				"BugReports" : "https://github.com/tidyverse/lubridate/issues",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-11-02 19:18:01 UTC; vspinu",
+				"Author" : "Vitalie Spinu [aut, cre],\n  Garrett Grolemund [aut],\n  Hadley Wickham [aut],\n  Ian Lyttle [ctb],\n  Imanuel Constigan [ctb],\n  Jason Law [ctb],\n  Doug Mitarotonda [ctb],\n  Joseph Larmarange [ctb],\n  Jonathan Boiser [ctb],\n  Chel Hee Lee [ctb]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-03 12:26:50 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 00:39:33 UTC; windows"
+			}
+		},
+		"magrittr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "magrittr",
+				"Type" : "Package",
+				"Title" : "A Forward-Pipe Operator for R",
+				"Version" : "1.5",
+				"Author" : "Stefan Milton Bache <stefan@stefanbache.dk> and\n    Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Stefan Milton Bache <stefan@stefanbache.dk>",
+				"Description" : "Provides a mechanism for chaining commands with a\n    new forward-pipe operator, %>%. This operator will forward a\n    value, or the result of an expression, into the next function\n    call/expression. There is flexible support for the type\n    of right-hand side expressions. For more information, see\n    package vignette.\n    To quote Rene Magritte, \"Ceci n'est pas un pipe.\"",
+				"Suggests" : "testthat, knitr",
+				"VignetteBuilder" : "knitr",
+				"License" : "MIT + file LICENSE",
+				"ByteCompile" : "Yes",
+				"Packaged" : "2014-11-22 08:50:53 UTC; shb",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-11-22 19:15:57",
+				"Built" : "R 3.4.3; ; 2017-12-03 23:46:42 UTC; windows"
+			}
+		},
+		"mgcv" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "mgcv",
+				"Version" : "1.8-20",
+				"Author" : "Simon Wood <simon.wood@r-project.org>",
+				"Maintainer" : "Simon Wood <simon.wood@r-project.org>",
+				"Title" : "Mixed GAM Computation Vehicle with Automatic Smoothness\nEstimation",
+				"Description" : "Generalized additive (mixed) models, some of their extensions and \n             other generalized ridge regression with multiple smoothing \n             parameter estimation by (Restricted) Marginal Likelihood, \n             Generalized Cross Validation and similar. Includes a gam() \n             function, a wide variety of smoothers, JAGS support and \n             distributions beyond the exponential family.",
+				"Priority" : "recommended",
+				"Depends" : "R (>= 2.14.0), nlme (>= 3.1-64)",
+				"Imports" : "methods, stats, graphics, Matrix",
+				"Suggests" : "splines, parallel, survival, MASS",
+				"LazyLoad" : "yes",
+				"ByteCompile" : "yes",
+				"License" : "GPL (>= 2)",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-09-09 07:02:31 UTC; sw283",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-14 16:07:49 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:57:36 UTC; windows"
+			}
+		},
+		"mime" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "mime",
+				"Type" : "Package",
+				"Title" : "Map Filenames to MIME Types",
+				"Version" : "0.5",
+				"Date" : "2016-07-07",
+				"Authors@R" : "c(person(\"Jeffrey\", \"Horner\", role = \"ctb\"),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\"))",
+				"Maintainer" : "Yihui Xie <xie@yihui.name>",
+				"Description" : "Guesses the MIME type from a filename extension using the data\n    derived from /etc/mime.types in UNIX-type systems.",
+				"Imports" : "tools",
+				"License" : "GPL",
+				"URL" : "https://github.com/yihui/mime",
+				"BugReports" : "https://github.com/yihui/mime/issues",
+				"LazyData" : "TRUE",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-07-07 04:44:41 UTC; yihui",
+				"Author" : "Jeffrey Horner [ctb],\n  Yihui Xie [aut, cre]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-07-07 07:38:00",
+				"Built" : "R 3.4.1; x86_64-w64-mingw32; 2017-08-16 00:38:11 UTC; windows"
+			}
+		},
+		"mnormt" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "mnormt",
+				"Version" : "1.5-5",
+				"Date" : "2016-10-15",
+				"Title" : "The Multivariate Normal and t Distributions",
+				"Author" : "Fortran code by Alan Genz, R code by Adelchi Azzalini ",
+				"Maintainer" : "Adelchi Azzalini <adelchi.azzalini@unipd.it>",
+				"Depends" : "R (>= 2.2.0)",
+				"Description" : "Functions are provided for computing the density and the\n  distribution function of multivariate normal and \"t\" random variables,\n  and for generating random vectors sampled from these distributions.  \n  Probabilities are computed via non-Monte Carlo methods; different routines \n  are used in the case d=1, d=2, d>2, if d denotes the number of dimensions.",
+				"License" : "GPL-2 | GPL-3",
+				"URL" : "http://azzalini.stat.unipd.it/SW/Pkg-mnormt",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-10-14 12:26:21 UTC; aa",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-10-15 13:08:50",
+				"Built" : "R 3.4.1; x86_64-w64-mingw32; 2017-08-16 00:39:02 UTC; windows"
+			}
+		},
+		"munsell" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "munsell",
+				"Type" : "Package",
+				"Title" : "Utilities for Using Munsell Colours",
+				"Version" : "0.4.3",
+				"Author" : "Charlotte Wickham <cwickham@gmail.com>",
+				"Maintainer" : "Charlotte Wickham <cwickham@gmail.com>",
+				"Description" : "Provides easy access to, and manipulation of, the Munsell \n    colours. Provides a mapping between Munsell's \n    original notation (e.g. \"5R 5/10\") and hexadecimal strings suitable \n    for use directly in R graphics. Also provides utilities \n    to explore slices through the Munsell colour tree, to transform \n    Munsell colours and display colour palettes.",
+				"Suggests" : "ggplot2, testthat",
+				"Imports" : "colorspace, methods",
+				"License" : "MIT + file LICENSE",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-02-12 19:58:18 UTC; wickhamc",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-02-13 00:46:00",
+				"Built" : "R 3.4.2; ; 2017-11-25 02:57:50 UTC; windows"
+			}
+		},
+		"nlme" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "nlme",
+				"Version" : "3.1-131",
+				"Date" : "2017-02-06",
+				"Priority" : "recommended",
+				"Title" : "Linear and Nonlinear Mixed Effects Models",
+				"Authors@R" : "c(person(\"José\", \"Pinheiro\", role = \"aut\", comment = \"S version\"),\n             person(\"Douglas\", \"Bates\", role = \"aut\", comment = \"up to 2007\"),\n             person(\"Saikat\", \"DebRoy\", role = \"ctb\", comment = \"up to 2002\"),\n             person(\"Deepayan\", \"Sarkar\", role = \"ctb\", comment = \"up to 2005\"),\n             person(\"EISPACK authors\", role = \"ctb\", comment = \"src/rs.f\"),\n\t     person(\"Siem\", \"Heisterkamp\", role = \"ctb\", comment = \"Author fixed sigma\"),\n             person(\"Bert\", \"Van Willigen\",role = \"ctb\", comment = \"Programmer fixed sigma\"),\n\t     person(\"R-core\", email = \"R-core@R-project.org\",\n                    role = c(\"aut\", \"cre\")))",
+				"Description" : "Fit and compare Gaussian linear and nonlinear mixed-effects models.",
+				"Depends" : "R (>= 3.0.2)",
+				"Imports" : "graphics, stats, utils, lattice",
+				"Suggests" : "Hmisc, MASS",
+				"LazyData" : "yes",
+				"ByteCompile" : "yes",
+				"Encoding" : "UTF-8",
+				"License" : "GPL (>= 2) | file LICENCE",
+				"BugReports" : "https://bugs.r-project.org",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-02-06 10:56:42 UTC; maechler",
+				"Author" : "José Pinheiro [aut] (S version),\n  Douglas Bates [aut] (up to 2007),\n  Saikat DebRoy [ctb] (up to 2002),\n  Deepayan Sarkar [ctb] (up to 2005),\n  EISPACK authors [ctb] (src/rs.f),\n  Siem Heisterkamp [ctb] (Author fixed sigma),\n  Bert Van Willigen [ctb] (Programmer fixed sigma),\n  R-core [aut, cre]",
+				"Maintainer" : "R-core <R-core@R-project.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-02-06 21:34:58",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:54:19 UTC; windows"
+			}
+		},
+		"nnet" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "nnet",
+				"Priority" : "recommended",
+				"Version" : "7.3-12",
+				"Date" : "2016-02-02",
+				"Depends" : "R (>= 2.14.0), stats, utils",
+				"Suggests" : "MASS",
+				"Authors@R" : "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n             person(\"William\", \"Venables\", role = \"cph\"))",
+				"Description" : "Software for feed-forward neural networks with a single\n  hidden layer, and for multinomial log-linear models.",
+				"Title" : "Feed-Forward Neural Networks and Multinomial Log-Linear Models",
+				"ByteCompile" : "yes",
+				"License" : "GPL-2 | GPL-3",
+				"URL" : "http://www.stats.ox.ac.uk/pub/MASS4/",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-02-02 09:12:29 UTC; ripley",
+				"Author" : "Brian Ripley [aut, cre, cph],\n  William Venables [cph]",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-02-02 14:55:19",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:57:25 UTC; windows"
+			}
+		},
+		"numDeriv" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "numDeriv",
+				"Version" : "2016.8-1",
+				"Title" : "Accurate Numerical Derivatives",
+				"Description" : "Methods for calculating (usually) accurate\n\tnumerical first and second order derivatives. Accurate calculations \n\tare done using 'Richardson''s' extrapolation or, when applicable, a\n\tcomplex step derivative is available. A simple difference \n\tmethod is also provided. Simple difference is (usually) less accurate\n\tbut is much quicker than 'Richardson''s' extrapolation and provides a \n\tuseful cross-check. \n\tMethods are provided for real scalar and vector valued functions. ",
+				"Depends" : "R (>= 2.11.1)",
+				"LazyLoad" : "yes",
+				"ByteCompile" : "yes",
+				"License" : "GPL-2",
+				"Copyright" : "2006-2011, Bank of Canada. 2012-2016, Paul Gilbert",
+				"Author" : "Paul Gilbert and Ravi Varadhan",
+				"Maintainer" : "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+				"URL" : "http://optimizer.r-forge.r-project.org/",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-08-21 23:03:32 UTC; paul",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-08-27 00:25:32",
+				"Built" : "R 3.4.1; ; 2017-08-16 00:39:08 UTC; windows"
+			}
+		},
+		"packrat" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "packrat",
+				"Type" : "Package",
+				"Title" : "A Dependency Management System for Projects and their R Package\nDependencies",
+				"Version" : "0.4.8-1",
+				"Author" : "Kevin Ushey, Jonathan McPherson, Joe Cheng, Aron Atkins, JJ Allaire",
+				"Maintainer" : "Kevin Ushey <kevin@rstudio.com>",
+				"Description" : "Manage the R packages your project depends\n    on in an isolated, portable, and reproducible way.",
+				"License" : "GPL-2",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "tools, utils",
+				"Suggests" : "testthat (>= 0.7), devtools, httr, knitr, rmarkdown",
+				"Enhances" : "BiocInstaller",
+				"URL" : "https://github.com/rstudio/packrat/",
+				"BugReports" : "https://github.com/rstudio/packrat/issues",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-09-07 21:30:04 UTC; kevin",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-09-07 23:37:52",
+				"Built" : "R 3.4.2; ; 2018-02-08 07:32:06 UTC; windows"
+			}
+		},
+		"pkgconfig" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "pkgconfig",
+				"Title" : "Private Configuration for 'R' Packages",
+				"Version" : "2.0.1",
+				"Author" : "Gábor Csárdi",
+				"Maintainer" : "Gábor Csárdi <csardi.gabor@gmail.com>",
+				"Description" : "Set configuration options on a per-package basis.\n    Options set by a given package only apply to that package,\n    other packages are unaffected.",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"Imports" : "utils",
+				"Suggests" : "covr, testthat, disposables (>= 1.0.3)",
+				"URL" : "https://github.com/gaborcsardi/pkgconfig",
+				"BugReports" : "https://github.com/gaborcsardi/pkgconfig/issues",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-03-21 10:15:26 UTC; gaborcsardi",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-03-21 15:20:20 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-30 12:23:55 UTC; windows"
+			}
+		},
+		"plogr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "plogr",
+				"Title" : "The 'plog' C++ Logging Library",
+				"Version" : "0.1-1",
+				"Date" : "2016-09-24",
+				"Authors@R" : "c(\n  person(\"Kirill\", \"Müller\", role = c(\"aut\", \"cre\"), email = \"krlmlr+r@mailbox.org\"),\n  person(\"Sergey\", \"Podobry\", role = \"cph\", comment = \"Author of the bundled plog library\"))",
+				"Description" : "\n  A simple header-only logging library for C++.\n  Add 'LinkingTo: plogr' to 'DESCRIPTION', and '#include <plogr.h>' in your C++ modules to use it.",
+				"Suggests" : "Rcpp",
+				"License" : "MIT + file LICENSE",
+				"Encoding" : "UTF-8",
+				"LazyData" : "true",
+				"URL" : "https://github.com/krlmlr/plogr#readme",
+				"BugReports" : "https://github.com/krlmlr/plogr/issues",
+				"RoxygenNote" : "5.0.1.9000",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-09-24 12:08:49 UTC; muelleki",
+				"Author" : "Kirill Müller [aut, cre],\n  Sergey Podobry [cph] (Author of the bundled plog library)",
+				"Maintainer" : "Kirill Müller <krlmlr+r@mailbox.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-09-24 18:23:26",
+				"Built" : "R 3.4.2; ; 2017-11-30 12:23:55 UTC; windows"
+			}
+		},
+		"plyr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "plyr",
+				"Version" : "1.8.4",
+				"Title" : "Tools for Splitting, Applying and Combining Data",
+				"Description" : "A set of tools that solves a common set of problems: you\n    need to break a big problem down into manageable pieces, operate on each\n    piece and then put all the pieces back together.  For example, you might\n    want to fit a model to each spatial location or time point in your study,\n    summarise data by panels or collapse high-dimensional arrays to simpler\n    summary statistics. The development of 'plyr' has been generously supported\n    by 'Becton Dickinson'.",
+				"Authors@R" : "person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"))",
+				"URL" : "http://had.co.nz/plyr, https://github.com/hadley/plyr",
+				"BugReports" : "https://github.com/hadley/plyr/issues",
+				"Depends" : "R (>= 3.1.0)",
+				"Imports" : "Rcpp (>= 0.11.0)",
+				"LinkingTo" : "Rcpp",
+				"Suggests" : "abind, testthat, tcltk, foreach, doParallel, itertools,\niterators, covr",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-06-07 19:58:36 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-06-08 10:40:15",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-25 01:41:49 UTC; windows"
+			}
+		},
+		"prodlim" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "prodlim",
+				"Title" : "Product-Limit Estimation for Censored Event History Analysis",
+				"Version" : "1.6.1",
+				"Author" : "Thomas A. Gerds",
+				"Description" : "Fast and user friendly implementation of nonparametric estimators\n    for censored event history (survival) analysis. Kaplan-Meier and\n    Aalen-Johansen method.",
+				"Depends" : "R (>= 2.9.0)",
+				"Imports" : "Rcpp (>= 0.11.5), stats, graphics, survival, KernSmooth, lava",
+				"LinkingTo" : "Rcpp",
+				"Maintainer" : "Thomas A. Gerds <tag@biostat.ku.dk>",
+				"License" : "GPL (>= 2)",
+				"Packaged" : "2017-03-06 12:06:02 UTC; tag",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-03-06 13:53:09",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-04 02:47:53 UTC; windows"
+			}
+		},
+		"psych" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "psych",
+				"Version" : "1.7.8",
+				"Date" : "2017-08-17",
+				"Title" : "Procedures for Psychological, Psychometric, and Personality\nResearch",
+				"Author" : "William Revelle <revelle@northwestern.edu>",
+				"Maintainer" : "William Revelle <revelle@northwestern.edu>",
+				"Description" : "A general purpose toolbox for personality, psychometric theory and experimental psychology.   Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.   Functions for simulating and testing particular item and test structures are included. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the <http://personality-project.org/r> web page.",
+				"License" : "GPL (>= 2)",
+				"Imports" : "mnormt,parallel,stats,graphics,grDevices,methods,foreign,lattice,nlme",
+				"Suggests" : "GPArotation, lavaan, sem, lme4,Rcsdp, graph, Rgraphviz",
+				"LazyData" : "true",
+				"ByteCompile" : "TRUE",
+				"URL" : "http://personality-project.org/r/psych\nhttp://personality-project.org/r/psych-manual.pdf",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-09-08 23:08:04 UTC; WR",
+				"Depends" : "R (>= 2.10)",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-09-09 14:12:52 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-04 00:39:33 UTC; windows"
+			}
+		},
+		"purrr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "purrr",
+				"Title" : "Functional Programming Tools",
+				"Version" : "0.2.4",
+				"Authors@R" : "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+				"Description" : "A complete and consistent functional programming toolkit for R.",
+				"License" : "GPL-3 | file LICENSE",
+				"URL" : "http://purrr.tidyverse.org, https://github.com/tidyverse/purrr",
+				"BugReports" : "https://github.com/tidyverse/purrr/issues",
+				"Depends" : "R (>= 3.1)",
+				"Imports" : "magrittr (>= 1.5), rlang (>= 0.1), tibble",
+				"Suggests" : "covr, dplyr (>= 0.4.3), knitr, rmarkdown, testthat",
+				"VignetteBuilder" : "knitr",
+				"LazyData" : "true",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-10-18 13:06:58 UTC; hadley",
+				"Author" : "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph, fnd]",
+				"Maintainer" : "Lionel Henry <lionel@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-10-18 20:19:51 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-01 20:30:02 UTC; windows"
+			}
+		},
+		"recipes" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "recipes",
+				"Title" : "Preprocessing Tools to Create Design Matrices",
+				"Version" : "0.1.1",
+				"Authors@R" : "c(\n    person(\"Max\", \"Kuhn\", , \"max@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\"))",
+				"Description" : "An extensible framework to create and preprocess \n    design matrices. Recipes consist of one or more data manipulation \n    and analysis \"steps\". Statistical parameters for the steps can \n    be estimated from an initial data set and then applied to \n    other data sets. The resulting design matrices can then be used \n    as inputs into statistical or machine learning models. ",
+				"URL" : "https://github.com/topepo/recipes",
+				"BugReports" : "https://github.com/topepo/recipes/issues",
+				"Depends" : "R (>= 3.1), dplyr, broom",
+				"Imports" : "tibble, stats, ipred, dimRed (>= 0.1.0), lubridate, timeDate,\nddalpha, purrr, rlang (>= 0.1.1), gower, RcppRoll, tidyselect\n(>= 0.1.1), magrittr, Matrix",
+				"Suggests" : "testthat, rpart, kernlab, fastICA, RANN, igraph, knitr,\ncaret, ggplot2, rmarkdown, covr",
+				"License" : "GPL-2",
+				"VignetteBuilder" : "knitr",
+				"Encoding" : "UTF-8",
+				"LazyData" : "true",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-11-20 15:59:11 UTC; max",
+				"Author" : "Max Kuhn [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
+				"Maintainer" : "Max Kuhn <max@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-20 17:33:39 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-04 04:27:58 UTC; windows"
+			}
+		},
+		"reshape2" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "reshape2",
+				"Title" : "Flexibly Reshape Data: A Reboot of the Reshape Package",
+				"Version" : "1.4.2",
+				"Author" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Description" : "Flexibly restructure and aggregate data using just two\n    functions: melt and 'dcast' (or 'acast').",
+				"URL" : "https://github.com/hadley/reshape",
+				"BugReports" : "https://github.com/hadley/reshape/issues",
+				"LinkingTo" : "Rcpp",
+				"Imports" : "plyr (>= 1.8.1), stringr, Rcpp",
+				"Suggests" : "testthat (>= 0.8.0), lattice",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"RoxygenNote" : "5.0.1.9000",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2016-10-21 19:43:35 UTC; hadley",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-10-22 12:17:37",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-25 03:37:45 UTC; windows"
+			}
+		},
+		"rlang" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "rlang",
+				"Version" : "0.2.2",
+				"Title" : "Functions for Base Types and Core R and 'Tidyverse' Features",
+				"Description" : "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
+				"Authors@R" : "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"License" : "GPL-3",
+				"LazyData" : "true",
+				"ByteCompile" : "true",
+				"Depends" : "R (>= 3.1.0)",
+				"Suggests" : "crayon, knitr, methods, pillar, rmarkdown (>= 0.2.65),\ntestthat, covr",
+				"RoxygenNote" : "6.0.1",
+				"URL" : "http://rlang.tidyverse.org, https://github.com/r-lib/rlang",
+				"BugReports" : "https://github.com/r-lib/rlang/issues",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2018-08-14 17:56:07 UTC; lionel",
+				"Author" : "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
+				"Maintainer" : "Lionel Henry <lionel@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-08-16 18:20:03 UTC",
+				"Built" : "R 3.4.4; x86_64-w64-mingw32; 2018-08-18 15:43:07 UTC; windows"
+			}
+		},
+		"robustbase" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "robustbase",
+				"Version" : "0.92-8",
+				"VersionNote" : "0.92-7 on 2016-11-30 on CRAN",
+				"Date" : "2017-10-30",
+				"Title" : "Basic Robust Statistics",
+				"Authors@R" : "c(person(\"Martin\",\"Maechler\", role=c(\"aut\",\"cre\"), email=\"maechler@stat.math.ethz.ch\")\n         , person(\"Peter\", \"Rousseeuw\", role=\"ctb\", comment = \"Qn and Sn\")\n         , person(\"Christophe\", \"Croux\", role=\"ctb\", comment = \"Qn and Sn\")\n         , person(\"Valentin\", \"Todorov\", role = \"aut\", email = \"valentin.todorov@chello.at\",\n                  comment = \"most robust Cov\")\n         , person(\"Andreas\", \"Ruckstuhl\", role = \"aut\", email = \"andreas.ruckstuhl@zhaw.ch\",\n                  comment = \"nlrob, anova, glmrob\")\n         , person(\"Matias\", \"Salibian-Barrera\", role = \"aut\", email = \"matias@stat.ubc.ca\",\n                  comment = \"lmrob orig.\")\n         , person(\"Tobias\", \"Verbeke\", role = c(\"ctb\",\"fnd\"), email = \"tobias.verbeke@openanalytics.eu\",\n                  comment = \"mc, adjbox\")\n         , person(\"Manuel\", \"Koller\", role = \"aut\", email = \"koller.manuel@gmail.com\",\n                  comment = \"lmrob, psi-func.\")\n         , person(c(\"Eduardo\", \"L. T.\"), \"Conceicao\", role = \"aut\", email = \"mail@eduardoconceicao.org\",\n                  comment = \"MM-, tau-, CM-, and MTL- nlrob\")\n         , person(\"Maria\", \"Anna di Palma\", role = \"ctb\", comment = \"initial version of Comedian\")\n          )",
+				"URL" : "http://robustbase.r-forge.r-project.org/",
+				"Description" : "\"Essential\" Robust Statistics.\n Tools allowing to analyze data with robust methods.  This includes\n regression methodology including model selections and multivariate\n statistics where we strive to cover the book \"Robust Statistics,\n Theory and Methods\" by 'Maronna, Martin and Yohai'; Wiley 2006.",
+				"Depends" : "R (>= 3.0.2)",
+				"Imports" : "stats, graphics, utils, methods, DEoptimR",
+				"Suggests" : "grid, MASS, lattice, boot, cluster, Matrix, robust,\nfit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,\nreshape2, sfsmisc, catdata",
+				"SuggestsNote" : "mostly only because of vignette graphics",
+				"LazyData" : "yes",
+				"License" : "GPL (>= 2)",
+				"ByteCompile" : "yes",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-10-30 14:18:42 UTC; maechler",
+				"Author" : "Martin Maechler [aut, cre],\n  Peter Rousseeuw [ctb] (Qn and Sn),\n  Christophe Croux [ctb] (Qn and Sn),\n  Valentin Todorov [aut] (most robust Cov),\n  Andreas Ruckstuhl [aut] (nlrob, anova, glmrob),\n  Matias Salibian-Barrera [aut] (lmrob orig.),\n  Tobias Verbeke [ctb, fnd] (mc, adjbox),\n  Manuel Koller [aut] (lmrob, psi-func.),\n  Eduardo L. T. Conceicao [aut] (MM-, tau-, CM-, and MTL- nlrob),\n  Maria Anna di Palma [ctb] (initial version of Comedian)",
+				"Maintainer" : "Martin Maechler <maechler@stat.math.ethz.ch>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-01 15:56:53 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-03 23:47:17 UTC; windows"
+			}
+		},
+		"rpart" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "rpart",
+				"Priority" : "recommended",
+				"Version" : "4.1-11",
+				"Date" : "2017-03-12",
+				"Authors@R" : "c(person(\"Terry\", \"Therneau\", role = \"aut\",\n\t             email = \"therneau@mayo.edu\"),\n             person(\"Beth\", \"Atkinson\", role = \"aut\",\t\n\t             email = \"atkinson@mayo.edu\"),\n             person(\"Brian\", \"Ripley\", role = c(\"aut\", \"trl\", \"cre\"),\n                    email = \"ripley@stats.ox.ac.uk\",\n\t\t    comment = \"author of initial R port\"))",
+				"Description" : "Recursive partitioning for classification, \n  regression and survival trees.  An implementation of most of the \n  functionality of the 1984 book by Breiman, Friedman, Olshen and Stone.",
+				"Title" : "Recursive Partitioning and Regression Trees",
+				"Depends" : "R (>= 2.15.0), graphics, stats, grDevices",
+				"Suggests" : "survival",
+				"License" : "GPL-2 | GPL-3",
+				"LazyData" : "yes",
+				"ByteCompile" : "yes",
+				"Note" : "Maintainers are not available to give advice on using a package\nthey did not author.",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-03-12 21:36:08 UTC; ripley",
+				"Author" : "Terry Therneau [aut],\n  Beth Atkinson [aut],\n  Brian Ripley [aut, trl, cre] (author of initial R port)",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-04-21 13:33:37 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-07 09:38:50 UTC; windows"
+			}
+		},
+		"scales" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "scales",
+				"Version" : "0.5.0",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"Title" : "Scale Functions for Visualization",
+				"Description" : "Graphical scales map data to aesthetics, and provide\n    methods for automatically determining breaks and labels\n    for axes and legends.",
+				"URL" : "https://github.com/hadley/scales",
+				"BugReports" : "https://github.com/hadley/scales/issues",
+				"Depends" : "R (>= 2.13)",
+				"Imports" : "RColorBrewer, dichromat, plyr, munsell (>= 0.2), labeling,\nRcpp, R6, viridisLite",
+				"LinkingTo" : "Rcpp",
+				"Suggests" : "testthat (>= 0.8), bit64, covr, hms",
+				"License" : "MIT + file LICENSE",
+				"LazyLoad" : "yes",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-08-23 21:21:31 UTC; Kara",
+				"Author" : "Hadley Wickham [aut, cre],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-08-24 14:35:38 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-01 20:30:00 UTC; windows"
+			}
+		},
+		"sfsmisc" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "sfsmisc",
+				"Title" : "Utilities from 'Seminar fuer Statistik' ETH Zurich",
+				"Version" : "1.1-1",
+				"Date" : "2017-06-08",
+				"Author" : "Martin Maechler et al.",
+				"Maintainer" : "Martin Maechler <maechler@stat.math.ethz.ch>",
+				"Description" : "Useful utilities ['goodies'] from Seminar fuer Statistik ETH\n  Zurich, quite a few related to graphics; some were ported from S-plus.",
+				"Depends" : "R (>= 3.0.1)",
+				"Imports" : "grDevices, methods, utils, stats",
+				"Suggests" : "datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern",
+				"Enhances" : "mgcv, rpart, nor1mix, polycor, sm, tikzDevice",
+				"Encoding" : "latin1",
+				"ByteCompile" : "yes",
+				"License" : "GPL (>= 2)",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-06-08 08:37:43 UTC; maechler",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-06-08 16:46:33 UTC",
+				"Built" : "R 3.4.3; ; 2017-12-03 23:47:05 UTC; windows"
+			}
+		},
+		"shiny" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "shiny",
+				"Type" : "Package",
+				"Title" : "Web Application Framework for R",
+				"Version" : "1.0.5",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(\"JJ\", \"Allaire\", role = \"aut\", email = \"jj@rstudio.com\"),\n    person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@rstudio.com\"),\n    person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"jQuery Foundation\", role = \"cph\",\n    comment = \"jQuery library and jQuery UI library\"),\n    person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt\"),\n    person(family = \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery UI library; authors listed in inst/www/shared/jqueryui/AUTHORS.txt\"),\n    person(\"Mark\", \"Otto\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(\"Jacob\", \"Thornton\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Bootstrap contributors\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Twitter, Inc\", role = \"cph\",\n    comment = \"Bootstrap library\"),\n    person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"),\n    comment = \"html5shiv library\"),\n    person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"),\n    comment = \"Respond.js library\"),\n    person(\"Stefan\", \"Petre\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap-datepicker library\"),\n    person(\"Andrew\", \"Rowls\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap-datepicker library\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n    comment = \"Font-Awesome font\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"),\n    comment = \"selectize.js library\"),\n    person(\"Kristopher Michael\", \"Kowal\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(family = \"es5-shim contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(\"Denis\", \"Ineshin\", role = c(\"ctb\", \"cph\"),\n    comment = \"ion.rangeSlider library\"),\n    person(\"Sami\", \"Samhuri\", role = c(\"ctb\", \"cph\"),\n    comment = \"Javascript strftime library\"),\n    person(family = \"SpryMedia Limited\", role = c(\"ctb\", \"cph\"),\n    comment = \"DataTables library\"),\n    person(\"John\", \"Fraser\", role = c(\"ctb\", \"cph\"),\n    comment = \"showdown.js library\"),\n    person(\"John\", \"Gruber\", role = c(\"ctb\", \"cph\"),\n    comment = \"showdown.js library\"),\n    person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"),\n    comment = \"highlight.js library\"),\n    person(family = \"R Core Team\", role = c(\"ctb\", \"cph\"),\n    comment = \"tar implementation from R\")\n    )",
+				"Description" : "Makes it incredibly easy to build interactive web\n    applications with R. Automatic \"reactive\" binding between inputs and\n    outputs and extensive prebuilt widgets make it possible to build\n    beautiful, responsive, and powerful applications with minimal effort.",
+				"License" : "GPL-3 | file LICENSE",
+				"Depends" : "R (>= 3.0.2), methods",
+				"Imports" : "utils, httpuv (>= 1.3.5), mime (>= 0.3), jsonlite (>= 0.9.16),\nxtable, digest, htmltools (>= 0.3.5), R6 (>= 2.0), sourcetools,\ntools",
+				"Suggests" : "datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),\nmarkdown, rmarkdown, ggplot2, magrittr",
+				"URL" : "http://shiny.rstudio.com",
+				"BugReports" : "https://github.com/rstudio/shiny/issues",
+				"Collate" : "'app.R' 'bookmark-state-local.R' 'stack.R' 'bookmark-state.R'\n'bootstrap-layout.R' 'conditions.R' 'map.R' 'globals.R'\n'utils.R' 'bootstrap.R' 'cache.R' 'diagnose.R' 'fileupload.R'\n'graph.R' 'reactives.R' 'reactive-domains.R' 'history.R'\n'hooks.R' 'html-deps.R' 'htmltools.R' 'image-interact-opts.R'\n'image-interact.R' 'imageutils.R' 'input-action.R'\n'input-checkbox.R' 'input-checkboxgroup.R' 'input-date.R'\n'input-daterange.R' 'input-file.R' 'input-numeric.R'\n'input-password.R' 'input-radiobuttons.R' 'input-select.R'\n'input-slider.R' 'input-submit.R' 'input-text.R'\n'input-textarea.R' 'input-utils.R' 'insert-tab.R' 'insert-ui.R'\n'jqueryui.R' 'middleware-shiny.R' 'middleware.R' 'modal.R'\n'modules.R' 'notifications.R' 'priorityqueue.R' 'progress.R'\n'react.R' 'render-plot.R' 'render-table.R' 'run-url.R'\n'serializers.R' 'server-input-handlers.R' 'server.R'\n'shiny-options.R' 'shiny.R' 'shinyui.R' 'shinywrappers.R'\n'showcase.R' 'snapshot.R' 'tar.R' 'test-export.R' 'timer.R'\n'update-input.R'",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-08-23 18:15:30 UTC; winston",
+				"Author" : "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  JJ Allaire [aut],\n  Yihui Xie [aut],\n  Jonathan McPherson [aut],\n  RStudio [cph],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/www/shared/jquery-AUTHORS.txt),\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/www/shared/jqueryui/AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Alexander Farkas [ctb, cph] (html5shiv library),\n  Scott Jehl [ctb, cph] (Respond.js library),\n  Stefan Petre [ctb, cph] (Bootstrap-datepicker library),\n  Andrew Rowls [ctb, cph] (Bootstrap-datepicker library),\n  Dave Gandy [ctb, cph] (Font-Awesome font),\n  Brian Reavis [ctb, cph] (selectize.js library),\n  Kristopher Michael Kowal [ctb, cph] (es5-shim library),\n  es5-shim contributors [ctb, cph] (es5-shim library),\n  Denis Ineshin [ctb, cph] (ion.rangeSlider library),\n  Sami Samhuri [ctb, cph] (Javascript strftime library),\n  SpryMedia Limited [ctb, cph] (DataTables library),\n  John Fraser [ctb, cph] (showdown.js library),\n  John Gruber [ctb, cph] (showdown.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  R Core Team [ctb, cph] (tar implementation from R)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-08-23 20:20:10 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-27 12:38:02 UTC; windows"
+			}
+		},
+		"shinydashboard" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "shinydashboard",
+				"Title" : "Create Dashboards with 'Shiny'",
+				"Version" : "0.7.0",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Barbara\", \"Borges Ribeiro\", role = \"aut\", email = \"barbara@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"Almasaeed Studio\", role = c(\"ctb\", \"cph\"), comment = \"AdminLTE theme for Bootstrap\"),\n    person(family = \"Adobe Systems Incorporated\", role = c(\"ctb\", \"cph\"), comment = \"Source Sans Pro font\")\n    )",
+				"Description" : "Create dashboards with 'Shiny'. This package provides\n    a theme on top of 'Shiny', making it easy to create attractive dashboards.",
+				"URL" : "http://rstudio.github.io/shinydashboard/",
+				"Depends" : "R (>= 3.0)",
+				"License" : "GPL (>= 2) | file LICENSE",
+				"Imports" : "utils, shiny (>= 1.0.0), htmltools (>= 0.2.6)",
+				"BugReports" : "https://github.com/rstudio/shinydashboard",
+				"RoxygenNote" : "6.0.1.9000",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2018-03-21 17:33:51 UTC; winston",
+				"Author" : "Winston Chang [aut, cre],\n  Barbara Borges Ribeiro [aut],\n  RStudio [cph],\n  Almasaeed Studio [ctb, cph] (AdminLTE theme for Bootstrap),\n  Adobe Systems Incorporated [ctb, cph] (Source Sans Pro font)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-03-21 22:18:53 UTC",
+				"Built" : "R 3.4.4; ; 2018-08-16 15:21:18 UTC; windows"
+			}
+		},
+		"shinythemes" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "shinythemes",
+				"Title" : "Themes for Shiny",
+				"Version" : "1.1.1",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(\"Thomas\", \"Park\", role = c(\"ctb\", \"cph\"), comment = \"Bootswatch themes\"),\n    person(\"Lukasz\", \"Dziedzic\", role = c(\"ctb\", \"cph\"), comment = \"Lato font\"),\n    person(\"Nathan\", \"Willis\", role = c(\"ctb\", \"cph\"), comment = \"News Cycle font\"),\n    person(family = \"Google Corporation\", role = c(\"ctb\", \"cph\"), comment = \"Open Sans and Roboto fonts\"),\n    person(\"Matt\", \"McInerney\", role = c(\"ctb\", \"cph\"), comment = \"Raleway font\"),\n    person(family = \"Adobe Systems Incorporated\", role = c(\"ctb\", \"cph\"), comment = \"Source Sans Pro font\"),\n    person(family = \"Canonical Ltd\", role = c(\"ctb\", \"cph\"), comment = \"Ubuntu font\")\n    )",
+				"Description" : "Themes for use with Shiny. Includes several Bootstrap themes\n    from <http://bootswatch.com/>, which are packaged for use with Shiny\n    applications.",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "shiny (>= 0.11)",
+				"License" : "GPL-3 | file LICENSE",
+				"RoxygenNote" : "5.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-10-12 01:29:50 UTC; winston",
+				"Author" : "Winston Chang [aut, cre],\n  RStudio [cph],\n  Thomas Park [ctb, cph] (Bootswatch themes),\n  Lukasz Dziedzic [ctb, cph] (Lato font),\n  Nathan Willis [ctb, cph] (News Cycle font),\n  Google Corporation [ctb, cph] (Open Sans and Roboto fonts),\n  Matt McInerney [ctb, cph] (Raleway font),\n  Adobe Systems Incorporated [ctb, cph] (Source Sans Pro font),\n  Canonical Ltd [ctb, cph] (Ubuntu font)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2016-10-12 09:00:52",
+				"Built" : "R 3.4.4; ; 2018-08-16 14:47:42 UTC; windows"
+			}
+		},
+		"sourcetools" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "sourcetools",
+				"Type" : "Package",
+				"Title" : "Tools for Reading, Tokenizing and Parsing R Code",
+				"Version" : "0.1.6",
+				"Author" : "Kevin Ushey",
+				"Maintainer" : "Kevin Ushey <kevinushey@gmail.com>",
+				"Description" : "Tools for the reading and tokenization of R code. The\n    'sourcetools' package provides both an R and C++ interface for the tokenization\n    of R code, and helpers for interacting with the tokenized representation of R\n    code.",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "TRUE",
+				"Depends" : "R (>= 3.0.2)",
+				"Suggests" : "testthat",
+				"RoxygenNote" : "5.0.1",
+				"BugReports" : "https://github.com/kevinushey/sourcetools/issues",
+				"Encoding" : "UTF-8",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-04-05 19:41:15 UTC; kevin",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-04-05 21:57:43 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-27 11:02:21 UTC; windows"
+			}
+		},
+		"stringi" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "stringi",
+				"Version" : "1.1.6",
+				"Date" : "2017-11-10",
+				"Title" : "Character String Processing Facilities",
+				"Description" : "Allows for fast, correct, consistent, portable,\n    as well as convenient character string/text processing in every locale\n    and any native encoding. Owing to the use of the ICU library,\n    the package provides R users with platform-independent functions\n    known to Java, Perl, Python, PHP, and Ruby programmers. Available\n    features include: pattern searching (e.g., with ICU Java-like regular\n    expressions or the Unicode Collation Algorithm), random string generation,\n    case mapping, string transliteration, concatenation,\n    Unicode normalization, date-time formatting and parsing, etc.",
+				"URL" : "http://www.gagolewski.com/software/stringi/\nhttp://site.icu-project.org/ http://www.unicode.org/",
+				"BugReports" : "http://github.com/gagolews/stringi/issues",
+				"SystemRequirements" : "ICU4C (>= 52, optional)",
+				"Type" : "Package",
+				"Depends" : "R (>= 2.14)",
+				"Imports" : "tools, utils, stats",
+				"Biarch" : "TRUE",
+				"License" : "file LICENSE",
+				"Author" : "Marek Gagolewski [aut, cre], Bartek Tartanus [ctb],\n    and other contributors (stringi source code);\n    IBM and other contributors (ICU4C 55.1 source code);\n    Unicode, Inc. (Unicode Character Database)",
+				"Maintainer" : "Marek Gagolewski <gagolews@rexamine.com>",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-11-10 13:42:04 UTC; gagolews",
+				"License_is_FOSS" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-17 13:13:14 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-19 08:25:39 UTC; windows"
+			}
+		},
+		"stringr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "stringr",
+				"Version" : "1.2.0",
+				"Title" : "Simple, Consistent Wrappers for Common String Operations",
+				"Description" : "A consistent, simple and easy to use set of wrappers around the\n    fantastic 'stringi' package. All function and argument names (and positions)\n    are consistent, all functions deal with \"NA\"'s and zero length vectors\n    in the same way, and the output from one function is easy to feed into\n    the input of another.",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\", \"cph\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"License" : "GPL-2 | file LICENSE",
+				"Depends" : "R (>= 2.14)",
+				"Imports" : "stringi (>= 0.4.1), magrittr",
+				"Suggests" : "testthat, knitr, htmltools, htmlwidgets, rmarkdown, covr",
+				"VignetteBuilder" : "knitr",
+				"URL" : "http://stringr.tidyverse.org, https://github.com/tidyverse/stringr",
+				"BugReports" : "https://github.com/tidyverse/stringr/issues",
+				"RoxygenNote" : "6.0.1",
+				"LazyData" : "true",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-02-17 15:23:03 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre, cph],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-02-18 21:23:06",
+				"Built" : "R 3.4.2; ; 2017-11-25 02:57:46 UTC; windows"
+			}
+		},
+		"survival" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Title" : "Survival Analysis",
+				"Maintainer" : "Terry M Therneau <therneau.terry@mayo.edu>",
+				"Priority" : "recommended",
+				"Package" : "survival",
+				"Version" : "2.41-3",
+				"Depends" : "R (>= 2.13.0)",
+				"Imports" : "graphics, Matrix, methods, splines, stats, utils",
+				"LazyData" : "Yes",
+				"LazyLoad" : "Yes",
+				"ByteCompile" : "Yes",
+				"Authors@R" : "c(person(c(\"Terry\", \"M\"), \"Therneau\",\n                    email=\"therneau.terry@mayo.edu\",\n\t            role=c(\"aut\", \"cre\")),\n               person(\"Thomas\", \"Lumley\", role=c(\"ctb\", \"trl\"),\n\t       comment=\"original S->R port and maintainer until 2009\"))",
+				"Description" : "Contains the core survival analysis routines, including\n\t     definition of Surv objects, \n\t     Kaplan-Meier and Aalen-Johansen (multi-state) curves, Cox models,\n\t     and parametric accelerated failure time models.",
+				"License" : "LGPL (>= 2)",
+				"URL" : "https://github.com/therneau/survival",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-04-04 12:56:36 UTC; therneau",
+				"Author" : "Terry M Therneau [aut, cre],\n  Thomas Lumley [ctb, trl] (original S->R port and maintainer until 2009)",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-04-04 19:31:37 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-09-28 09:55:07 UTC; windows"
+			}
+		},
+		"tibble" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "tibble",
+				"Encoding" : "UTF-8",
+				"Version" : "1.3.4",
+				"Title" : "Simple Data Frames",
+				"Description" : "Provides a 'tbl_df' class (the 'tibble') that provides\n    stricter checking and better formatting than the traditional data frame.",
+				"Authors@R" : "c(\n    person(\"Kirill\", \"Müller\", , \"krlmlr+r@mailbox.org\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"Romain\", \"Francois\", , \"romain@r-enthusiasts.com\", \"ctb\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"URL" : "http://tibble.tidyverse.org/, https://github.com/tidyverse/tibble",
+				"BugReports" : "https://github.com/tidyverse/tibble/issues",
+				"Depends" : "R (>= 3.1.0)",
+				"Imports" : "methods, rlang, Rcpp (>= 0.12.3), utils",
+				"Suggests" : "covr, dplyr, knitr (>= 1.5.32), microbenchmark, nycflights13,\ntestthat, rmarkdown, withr",
+				"LinkingTo" : "Rcpp",
+				"LazyData" : "yes",
+				"License" : "MIT + file LICENSE",
+				"RoxygenNote" : "6.0.1",
+				"VignetteBuilder" : "knitr",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-08-21 16:04:36 UTC; muelleki",
+				"Author" : "Kirill Müller [aut, cre],\n  Hadley Wickham [aut],\n  Romain Francois [ctb],\n  RStudio [cph]",
+				"Maintainer" : "Kirill Müller <krlmlr+r@mailbox.org>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-08-22 07:16:29 UTC",
+				"Built" : "R 3.4.2; x86_64-w64-mingw32; 2017-11-27 11:53:05 UTC; windows"
+			}
+		},
+		"tidyr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "tidyr",
+				"Title" : "Easily Tidy Data with 'spread()' and 'gather()' Functions",
+				"Version" : "0.7.2",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"Description" : "An evolution of 'reshape2'. It's designed specifically for data\n    tidying (not general reshaping or aggregating) and works well with\n    'dplyr' data pipelines.",
+				"Depends" : "R (>= 3.1.0)",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"Imports" : "dplyr (>= 0.7.0), glue, magrittr, purrr, rlang, Rcpp, stringi,\ntibble, tidyselect",
+				"URL" : "http://tidyr.tidyverse.org, https://github.com/tidyverse/tidyr",
+				"BugReports" : "https://github.com/tidyverse/tidyr/issues",
+				"Suggests" : "knitr, testthat, covr, gapminder, rmarkdown",
+				"VignetteBuilder" : "knitr",
+				"LinkingTo" : "Rcpp",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-10-16 13:20:18 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre],\n  Lionel Henry [aut],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-10-16 23:09:23 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-01 22:33:55 UTC; windows"
+			}
+		},
+		"tidyselect" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "tidyselect",
+				"Title" : "Select from a Set of Strings",
+				"Version" : "0.2.3",
+				"Authors@R" : "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"Description" : "A backend for the selecting functions of the 'tidyverse'.\n    It makes it easy to implement select-like functions in your own\n    packages in a way that is consistent with other 'tidyverse'\n    interfaces for selection.",
+				"Depends" : "R (>= 3.1.0)",
+				"Imports" : "glue, purrr, rlang (>= 0.1), Rcpp (>= 0.12.0)",
+				"Suggests" : "dplyr, testthat",
+				"LinkingTo" : "Rcpp (>= 0.12.0),",
+				"License" : "GPL-3",
+				"Encoding" : "UTF-8",
+				"LazyData" : "true",
+				"ByteCompile" : "true",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2017-11-06 19:12:16 UTC; lionel",
+				"Author" : "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
+				"Maintainer" : "Lionel Henry <lionel@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-06 21:55:42 UTC",
+				"Built" : "R 3.4.3; x86_64-w64-mingw32; 2017-12-01 21:38:03 UTC; windows"
+			}
+		},
+		"timeDate" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "timeDate",
+				"Title" : "Rmetrics - Chronological and Calendar Objects",
+				"Date" : "2017-11-12",
+				"Version" : "3042.101",
+				"Author" : "Diethelm Wuertz [aut],\n\tTobias Setz [cre],\n\tYohan Chalabi [ctb],\n\tMartin Maechler [ctb],\n\tJoe W. Byers [ctb]",
+				"Maintainer" : "Tobias Setz <tobias.setz@live.com>",
+				"Description" : "The 'timeDate' class fulfils the conventions of the ISO 8601 \n\tstandard as well as of the ANSI C and POSIX standards. Beyond\n\tthese standards it provides the \"Financial Center\" concept\n\twhich allows to handle data records collected in different time \n\tzones and mix them up to have always the proper time stamps with \n\trespect to your personal financial center, or alternatively to the GMT\n\treference time. It can thus also handle time stamps from historical \n\tdata records from the same time zone, even if the financial \n\tcenters changed day light saving times at different calendar\n\tdates.",
+				"Depends" : "R (>= 2.15.1), graphics, utils, stats, methods",
+				"Suggests" : "date, RUnit",
+				"LazyData" : "yes",
+				"License" : "GPL (>= 2)",
+				"URL" : "https://www.rmetrics.org",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-11-16 17:28:04 UTC; Tobias Setz",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-16 22:08:03 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-19 08:25:04 UTC; windows"
+			}
+		},
+		"viridisLite" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "viridisLite",
+				"Type" : "Package",
+				"Title" : "Default Color Maps from 'matplotlib' (Lite Version)",
+				"Version" : "0.2.0",
+				"Authors@R" : "c(\n      person(\"Simon\", \"Garnier\", email = \"garnier@njit.edu\", role = c(\"aut\", \"cre\")),\n      person(\"Noam\", \"Ross\", email = \"noam.ross@gmail.com\", role = c(\"ctb\", \"cph\")),\n      person(\"Bob\", \"Rudis\", email = \"bob@rud.is\", role = c(\"ctb\", \"cph\"))\n  )",
+				"Maintainer" : "Simon Garnier <garnier@njit.edu>",
+				"Description" : "Port of the new 'matplotlib' color maps ('viridis' - the default\n    -, 'magma', 'plasma' and 'inferno') to 'R'. 'matplotlib' <http://matplotlib.org/\n    > is a popular plotting library for 'python'. These color maps are designed\n    in such a way that they will analytically be perfectly perceptually-uniform,\n    both in regular form and also when converted to black-and-white. They are\n    also designed to be perceived by readers with the most common form of color\n    blindness. This is the 'lite' version of the more complete 'viridis' package\n    that can be found at <https://cran.r-project.org/package=viridis>.",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "TRUE",
+				"Encoding" : "UTF-8",
+				"Depends" : "R (>= 2.10)",
+				"Suggests" : "hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",
+				"URL" : "https://github.com/sjmgarnier/viridisLite",
+				"BugReports" : "https://github.com/sjmgarnier/viridisLite/issues",
+				"RoxygenNote" : "6.0.1",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-03-23 21:36:52 UTC; simon",
+				"Author" : "Simon Garnier [aut, cre],\n  Noam Ross [ctb, cph],\n  Bob Rudis [ctb, cph]",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-03-24 05:37:14 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-25 01:41:49 UTC; windows"
+			}
+		},
+		"withr" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Encoding" : "UTF-8",
+				"Package" : "withr",
+				"Title" : "Run Code 'With' Temporarily Modified Global State",
+				"Version" : "2.1.0",
+				"Authors@R" : "c(\n    person(\"Jim\", \"Hester\", , \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Kirill\", \"Müller\", , \"krlmlr+r@mailbox.org\", role = \"aut\"),\n    person(\"Kevin\", \"Ushey\", email = \"kevinushey@gmail.com\", role = c(\"aut\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Richard\", \"Cotton\", role = c(\"ctb\")),\n    person(\"RStudio\", role = \"cph\"))",
+				"Description" : "A set of functions to run code 'with' safely and temporarily\n    modified global state. Many of these functions were originally a part of the\n    'devtools' package, this provides a simple package with limited dependencies\n    to provide access to these functions.",
+				"URL" : "http://github.com/r-lib/withr#readme",
+				"BugReports" : "http://github.com/r-lib/withr/issues",
+				"Depends" : "R (>= 3.0.2)",
+				"License" : "GPL (>= 2)",
+				"LazyData" : "true",
+				"Imports" : "stats, lattice, graphics, grDevices",
+				"Suggests" : "testthat, covr, DBI, RSQLite, methods",
+				"RoxygenNote" : "6.0.1",
+				"Collate" : "'local_.R' 'with_.R' 'collate.R' 'connection.R' 'db.R'\n'defer.R' 'wrap.R' 'devices.R' 'dir.R' 'env.R' 'libpaths.R'\n'locale.R' 'makevars.R' 'namespace.R' 'options.R' 'par.R'\n'path.R' 'seed.R' 'sink.R' 'tempfile.R' 'torture.R' 'utils.R'\n'with.R'",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2017-11-01 15:24:18 UTC; jhester",
+				"Author" : "Jim Hester [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Richard Cotton [ctb],\n  RStudio [cph]",
+				"Maintainer" : "Jim Hester <james.f.hester@gmail.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2017-11-01 15:52:18 UTC",
+				"Built" : "R 3.4.2; ; 2017-11-30 12:25:07 UTC; windows"
+			}
+		},
+		"xtable" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "xtable",
+				"Version" : "1.8-2",
+				"Date" : "2016-01-08",
+				"Title" : "Export Tables to LaTeX or HTML",
+				"Author" : "David B. Dahl <dahl@stat.byu.edu>",
+				"Maintainer" : "David Scott <d.scott@auckland.ac.nz>",
+				"Imports" : "stats, utils",
+				"Suggests" : "knitr, lsmeans, spdep, splm, sphet, plm, zoo, survival",
+				"VignetteBuilder" : "knitr",
+				"Description" : "Coerce data to LaTeX and HTML tables.",
+				"URL" : "http://xtable.r-forge.r-project.org/",
+				"Depends" : "R (>= 2.10.0)",
+				"License" : "GPL (>= 2)",
+				"Repository" : "CRAN",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2016-02-02 02:58:02 UTC; dsco036",
+				"Date/Publication" : "2016-02-05 19:22:18",
+				"Built" : "R 3.4.2; ; 2017-11-27 11:02:20 UTC; windows"
+			}
+		},
+		"yaml" : {
+			"Source" : "CRAN",
+			"Repository" : "https://cran.rstudio.com/",
+			"description" : {
+				"Package" : "yaml",
+				"Type" : "Package",
+				"Title" : "Methods to Convert R Data to YAML and Back",
+				"Version" : "2.1.19",
+				"Date" : "2018-04-30",
+				"Suggests" : "testthat",
+				"Author" : "Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb]",
+				"Maintainer" : "Jeremy Stephens <jeremy.f.stephens@vumc.org>",
+				"License" : "BSD_3_clause + file LICENSE",
+				"Description" : "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<http://pyyaml.org/wiki/LibYAML>) for R.",
+				"URL" : "https://github.com/viking/r-yaml/",
+				"BugReports" : "https://github.com/viking/r-yaml/issues",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2018-04-30 20:56:56 UTC; stephej1",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2018-05-01 10:38:53 UTC",
+				"Built" : "R 3.4.4; x86_64-w64-mingw32; 2018-05-10 22:50:04 UTC; windows"
+			}
+		}
+	},
+	"files" : {
+		".RData" : {
+			"checksum" : "e2913fba803b53478b9b516dcf042846"
+		},
+		"insurance.csv" : {
+			"checksum" : "d5364d06246fb4bfa4cc7d1ee89ebd0d"
+		},
+		"packrat/desc/assertthat" : {
+			"checksum" : "44e83f1434b6827311780d9c84c1d24e"
+		},
+		"packrat/desc/BH" : {
+			"checksum" : "c6b02b4383da3c2b6907568685783c0c"
+		},
+		"packrat/desc/bindr" : {
+			"checksum" : "143237480fcc86b4675d7cbe7b6aedb7"
+		},
+		"packrat/desc/bindrcpp" : {
+			"checksum" : "33954468de2d64b0e8f8fef2142722e8"
+		},
+		"packrat/desc/broom" : {
+			"checksum" : "8fdac6b0c8fb3a2e023ffab6838047e6"
+		},
+		"packrat/desc/caret" : {
+			"checksum" : "c2fec042cec70f12b5ff8ab0c80329b2"
+		},
+		"packrat/desc/class" : {
+			"checksum" : "887606517e6e2e004859ecd9c60a683a"
+		},
+		"packrat/desc/codetools" : {
+			"checksum" : "7fd70d72755ab1a62df39824791567e6"
+		},
+		"packrat/desc/colorspace" : {
+			"checksum" : "2b02b68e615b778526d0cea8ae95e26e"
+		},
+		"packrat/desc/crosstalk" : {
+			"checksum" : "9caf192547ee09103af6a5aa36fae83b"
+		},
+		"packrat/desc/CVST" : {
+			"checksum" : "a2146aea296ac76a5687a4005fd521e9"
+		},
+		"packrat/desc/ddalpha" : {
+			"checksum" : "2127b6343527c2dfa6f35ae9749b1fbb"
+		},
+		"packrat/desc/DEoptimR" : {
+			"checksum" : "fe02c95c900bc0f96900b3a239795c38"
+		},
+		"packrat/desc/dichromat" : {
+			"checksum" : "6a1aa0cf367581dcd70224a1b06c783d"
+		},
+		"packrat/desc/digest" : {
+			"checksum" : "983bfe51b00ec922cabf2fb7f9d486c1"
+		},
+		"packrat/desc/dimRed" : {
+			"checksum" : "6544d57b896a323e7c2dc4915ec9c894"
+		},
+		"packrat/desc/dplyr" : {
+			"checksum" : "863f4d61c8198d018a7ddd3cae0a11a2"
+		},
+		"packrat/desc/DRR" : {
+			"checksum" : "66a4c188738694127c093264171bf95d"
+		},
+		"packrat/desc/DT" : {
+			"checksum" : "d703f62a51995c980241638f68dc11fd"
+		},
+		"packrat/desc/foreach" : {
+			"checksum" : "b2e603d26d6ee86f2fb1ac351a4f4b9b"
+		},
+		"packrat/desc/foreign" : {
+			"checksum" : "0d1e08fb1b7edc4a4b78a57daaec0254"
+		},
+		"packrat/desc/ggplot2" : {
+			"checksum" : "5495062866e37ca89a631b522f7d9185"
+		},
+		"packrat/desc/ggthemes" : {
+			"checksum" : "ef500c6e776832e702c5ef49dea8c082"
+		},
+		"packrat/desc/glue" : {
+			"checksum" : "f37288f6bc3fa1d3251aec9c3b02bbb8"
+		},
+		"packrat/desc/gower" : {
+			"checksum" : "96475b071a3e0e66bb2a55a3ec88d550"
+		},
+		"packrat/desc/gtable" : {
+			"checksum" : "3a558f1c24fd34702274149738ae6acf"
+		},
+		"packrat/desc/gtools" : {
+			"checksum" : "01ba74bb4a011fef66d2ba0caff7fd0d"
+		},
+		"packrat/desc/htmltools" : {
+			"checksum" : "90c8fa804f23f8f8c0999ff9fd5a4b4f"
+		},
+		"packrat/desc/htmlwidgets" : {
+			"checksum" : "f5959380f22eda48d7311370874592ec"
+		},
+		"packrat/desc/httpuv" : {
+			"checksum" : "d5e62d60c386bb2eccc0b91f00961b1f"
+		},
+		"packrat/desc/ipred" : {
+			"checksum" : "b88cf4b7f137a6299f586f28435001e5"
+		},
+		"packrat/desc/iterators" : {
+			"checksum" : "3c0c1b70e62db6064ae773e81564d8d1"
+		},
+		"packrat/desc/jsonlite" : {
+			"checksum" : "3e07efc1460b4a46a0c8155567d29544"
+		},
+		"packrat/desc/kernlab" : {
+			"checksum" : "7cdd63b3cc99db34136ca09ae43394c5"
+		},
+		"packrat/desc/KernSmooth" : {
+			"checksum" : "8fa63d40afda50edd8a535237a2b76c7"
+		},
+		"packrat/desc/labeling" : {
+			"checksum" : "1aacaa91e8f045e736ab2cd380c97ca1"
+		},
+		"packrat/desc/lattice" : {
+			"checksum" : "a029d25996052dde670eab861979ebb0"
+		},
+		"packrat/desc/lava" : {
+			"checksum" : "3ddd33bd30804b576776a634b6890374"
+		},
+		"packrat/desc/lazyeval" : {
+			"checksum" : "74365fcc0f8e09009cd7098d412a0c02"
+		},
+		"packrat/desc/lubridate" : {
+			"checksum" : "66d7c5ebf1dcded70c6bfc4e2af9d9a2"
+		},
+		"packrat/desc/magrittr" : {
+			"checksum" : "38c2e7eec8f9771cfd0f0a46b18ff2e7"
+		},
+		"packrat/desc/MASS" : {
+			"checksum" : "68994573ffc8fdc0761454dc06484e98"
+		},
+		"packrat/desc/Matrix" : {
+			"checksum" : "8d011b948341380776e4db7ef8c56cd3"
+		},
+		"packrat/desc/mgcv" : {
+			"checksum" : "a8e08c439301f53e12d228c0cfb6942c"
+		},
+		"packrat/desc/mime" : {
+			"checksum" : "86554291c6c0feb1a665711c3b4d0924"
+		},
+		"packrat/desc/mnormt" : {
+			"checksum" : "a6caf05f4548c3202e49e6d5773450d3"
+		},
+		"packrat/desc/ModelMetrics" : {
+			"checksum" : "b9e4bc405f8b0b234790012cca909840"
+		},
+		"packrat/desc/munsell" : {
+			"checksum" : "8ec48c339b7061606484129b488f95fc"
+		},
+		"packrat/desc/nlme" : {
+			"checksum" : "78faf14ceeb028370fc5165a62d786c7"
+		},
+		"packrat/desc/nnet" : {
+			"checksum" : "53fa5602b5d34b2f40cd9d64ba82b73b"
+		},
+		"packrat/desc/numDeriv" : {
+			"checksum" : "97c356155f7fe16339f665ea26bfc7e1"
+		},
+		"packrat/desc/packrat" : {
+			"checksum" : "8ca7176e0be06a154c08e1d291780902"
+		},
+		"packrat/desc/pkgconfig" : {
+			"checksum" : "c1d6204e648dbfbb900c515815c2042b"
+		},
+		"packrat/desc/plogr" : {
+			"checksum" : "2ddf5b34837e671cf677616109646d1e"
+		},
+		"packrat/desc/plyr" : {
+			"checksum" : "fbb6162465edd4a7829165edc4075803"
+		},
+		"packrat/desc/prodlim" : {
+			"checksum" : "6b6328202b0a67e9108af646ce08ae1e"
+		},
+		"packrat/desc/psych" : {
+			"checksum" : "7b478b934772700efa24d7c3d99f5ad9"
+		},
+		"packrat/desc/purrr" : {
+			"checksum" : "4ab50b197d4f9046a54018e21d41f8b0"
+		},
+		"packrat/desc/R6" : {
+			"checksum" : "e27d86de99514578b97c6eee3835a61f"
+		},
+		"packrat/desc/RColorBrewer" : {
+			"checksum" : "cca25114ed7ef5be496c5c466f959c70"
+		},
+		"packrat/desc/Rcpp" : {
+			"checksum" : "82a404f2360c869d80533ebe32d94d77"
+		},
+		"packrat/desc/RcppRoll" : {
+			"checksum" : "1b54cc7615cd9b85eb0de49a4a1092d2"
+		},
+		"packrat/desc/recipes" : {
+			"checksum" : "fa82db336b0a4a4fbe0795e241ce872d"
+		},
+		"packrat/desc/reshape2" : {
+			"checksum" : "625e9521c201aff8da7155563bef3cb6"
+		},
+		"packrat/desc/rlang" : {
+			"checksum" : "70da2d3c3824c8d0f2e6a13304ffe4c9"
+		},
+		"packrat/desc/robustbase" : {
+			"checksum" : "1d8ccc07139b005273e02d34614e49e8"
+		},
+		"packrat/desc/rpart" : {
+			"checksum" : "6769061584267bdc3a2c395ce1fc5585"
+		},
+		"packrat/desc/scales" : {
+			"checksum" : "e371644629ad9225090f11aaaefcc0a7"
+		},
+		"packrat/desc/sfsmisc" : {
+			"checksum" : "8247ba06cbc66cd293b95ba4b06d643e"
+		},
+		"packrat/desc/shiny" : {
+			"checksum" : "77fc0e3b921899349ccc3e7ae296d68a"
+		},
+		"packrat/desc/shinydashboard" : {
+			"checksum" : "e1b81e3fa026ab3a871a0f2e8aba67c4"
+		},
+		"packrat/desc/shinythemes" : {
+			"checksum" : "f15a338586113e6cabaec2db92a0b05d"
+		},
+		"packrat/desc/sourcetools" : {
+			"checksum" : "43922cd5c6c24310a10a5884afbcc05f"
+		},
+		"packrat/desc/stringi" : {
+			"checksum" : "4e62fb5fd584817b02d5f88176344076"
+		},
+		"packrat/desc/stringr" : {
+			"checksum" : "78e15a288932338e1cf408cdb4bbb365"
+		},
+		"packrat/desc/survival" : {
+			"checksum" : "541a0d37b2e3af656fe6a2a7176a625c"
+		},
+		"packrat/desc/tibble" : {
+			"checksum" : "a014c84609ac4f6f0c2ce086ed951746"
+		},
+		"packrat/desc/tidyr" : {
+			"checksum" : "295bc1b397d2592ddb25b8874012388a"
+		},
+		"packrat/desc/tidyselect" : {
+			"checksum" : "35b5247c0094f68179aa3cc624932c95"
+		},
+		"packrat/desc/timeDate" : {
+			"checksum" : "1af59746600cbe2e90d855df60f7975e"
+		},
+		"packrat/desc/viridisLite" : {
+			"checksum" : "7e33cc9e636f7e3cba49db7373054897"
+		},
+		"packrat/desc/withr" : {
+			"checksum" : "a4506eb3b7f39b0a588087ce911818db"
+		},
+		"packrat/desc/xtable" : {
+			"checksum" : "47b283abe558af90c210d71d1092d383"
+		},
+		"packrat/desc/yaml" : {
+			"checksum" : "6a90ccdabc95ece4b1fd907e941889e0"
+		},
+		"packrat/packrat.lock" : {
+			"checksum" : "0a58f2f516ef2c7b86ef7fc72ee81421"
+		},
+		"server.R" : {
+			"checksum" : "13dbf9c08cf136d8ffe08831332eab77"
+		},
+		"style.css" : {
+			"checksum" : "d41d8cd98f00b204e9800998ecf8427e"
+		},
+		"ui.R" : {
+			"checksum" : "1dbdc97fa8fee47121b18d947feb0fcc"
+		},
+		"www/dollar-sign.png" : {
+			"checksum" : "8cb0c59b1353c31cdad8b3e7e7de40ab"
+		},
+		"www/earth.gif" : {
+			"checksum" : "cab8e6f6eac786c5bfcc724b633fe1ac"
+		},
+		"www/insurance.jpg" : {
+			"checksum" : "66480f727dd91498aee7c633edeefb14"
+		}
+	},
+	"users" : null
+}
