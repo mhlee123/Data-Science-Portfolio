@@ -4,7 +4,7 @@
 
 This repository contains some of the independent and acedemic projects that i have worked on throughout my data science journey which i find worth sharing. I try my best to keep it updated with the latest data science projects and  make them as curated and open-source as possible.
 
->Comments, advices or interesting ideas are always welcomed, just drop me an email at mhlee2907@gmail.com.
+>Comments, advices or interesting ideas are always welcomed, buzz me at mhlee2907@gmail.com.
 
 ## Machine Learning
 - **[Stock Price Forecast Using Online Learning Model](https://github.com/mhlee123/Stock-Price-Forecast-Using-Online-Learning-Model) [![Generic badge](https://img.shields.io/badge/Python-v2.7-73b5a7.svg)](https://shields.io/)**   
