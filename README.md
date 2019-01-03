@@ -4,7 +4,7 @@
 
 This repository contains some of the independent and acedemic projects that i have worked on throughout my data science journey which i find worth sharing. I try my best to keep it updated with the latest data science projects and  make them as curated and open-source as possible.
 
->Comments, advices or interesting ideas are always welcomed, buzz me at mhlee2907@gmail.com.
+>Comments, advices or any interesting ideas are always welcomed, buzz me at mhlee2907@gmail.com.
 
 ## Machine Learning
 - **[Stock Price Forecast Using Online Learning Model](https://github.com/mhlee123/Stock-Price-Forecast-Using-Online-Learning-Model) [![Generic badge](https://img.shields.io/badge/Python-v2.7-73b5a7.svg)](https://shields.io/)**   
@@ -107,7 +107,7 @@ A Shiny data product that predict the next three most probable words given input
 </p>
 
 - **[Insurance Cost Estimator](https://mhlee2907.shinyapps.io/insurance-cost-prediction/) [![Generic badge](https://img.shields.io/badge/R-v3.5.1-e0a12c.svg)](https://shields.io/)**  
-A Shiny application that allows individuals to predict their insurance cost by specifying demographics. Multiple regression is employed to make the predictions.
+A Shiny application that allows individuals to predict their insurance cost by specifying demographic, socio-economic and behavioral variables. Multiple regression is employed to make the predictions.
 
 <p align="center">
   <img src ="https://s3-ap-southeast-1.amazonaws.com/mhlee2907/insurance.JPG" height="250" width="500"/>
